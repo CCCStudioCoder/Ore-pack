@@ -1,10 +1,10 @@
 {
   "parent": "block/cube_bottom_top",
   "textures": {
-    "particle": "ore_pack:block/blanc",
-    "bottom": "ore_pack:block/blanc",
-    "top": "ore_pack:block/blanc",
-    "side": "ore_pack:block/gris_claire"
+    "particle": "ore_pack:block/silver_block",
+    "bottom": "ore_pack:block/silver_block",
+    "top": "ore_pack:block/silver_block",
+    "side": "ore_pack:block/silver_block"
   },
   "render_type": "solid"
 }

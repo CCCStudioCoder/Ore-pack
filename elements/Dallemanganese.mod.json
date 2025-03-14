@@ -2,10 +2,10 @@
   "_fv": 73,
   "_type": "block",
   "definition": {
-    "texture": "blanc",
+    "texture": "manganese_block",
     "textureTop": "",
     "textureLeft": "",
-    "textureFront": "noir",
+    "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 11,
@@ -60,7 +60,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "IRON"
+      "value": "NONE"
     },
     "tickRate": 0,
     "tickRandomly": false,

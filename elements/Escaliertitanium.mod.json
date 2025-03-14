@@ -2,10 +2,10 @@
   "_fv": 73,
   "_type": "block",
   "definition": {
-    "texture": "gris_claire",
+    "texture": "titanium_block",
     "textureTop": "",
     "textureLeft": "",
-    "textureFront": "gris_fonce",
+    "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 11,
@@ -60,7 +60,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "IRON"
+      "value": "NONE"
     },
     "tickRate": 0,
     "tickRandomly": false,

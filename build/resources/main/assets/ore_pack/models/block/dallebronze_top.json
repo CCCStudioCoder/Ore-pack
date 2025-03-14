@@ -1,10 +1,10 @@
 {
   "parent": "block/slab_top",
   "textures": {
-    "particle": "ore_pack:block/orange_claire",
-    "bottom": "ore_pack:block/orange_claire",
-    "top": "ore_pack:block/orange_claire",
-    "side": "ore_pack:block/orange_fonce"
+    "particle": "ore_pack:block/bronze_block",
+    "bottom": "ore_pack:block/bronze_block",
+    "top": "ore_pack:block/bronze_block",
+    "side": "ore_pack:block/bronze_block"
   },
   "render_type": "solid"
 }

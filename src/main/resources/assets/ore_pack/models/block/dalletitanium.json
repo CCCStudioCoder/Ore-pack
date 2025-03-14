@@ -1,10 +1,10 @@
 {
   "parent": "block/slab",
   "textures": {
-    "particle": "ore_pack:block/gris_claire",
-    "bottom": "ore_pack:block/gris_claire",
-    "top": "ore_pack:block/gris_claire",
-    "side": "ore_pack:block/gris_fonce"
+    "particle": "ore_pack:block/titanium_block",
+    "bottom": "ore_pack:block/titanium_block",
+    "top": "ore_pack:block/titanium_block",
+    "side": "ore_pack:block/titanium_block"
   },
   "render_type": "solid"
 }

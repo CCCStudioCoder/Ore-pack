@@ -1,15 +1,16 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="Academic Free License v3.0"
+license="All Rights Reserved"
 
 [[mods]]
 modId="ore_pack"
-version="1.1.0"
+version="2.01"
 displayName="Ore pack"
-displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://cccstudiocoder.github.io"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - thanks to Pylo"
 authors="CCC Studio"
-description="Five new ores"
+description="Five new ores for you !"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "ore_pack:block/bloc_titanium",
-    "up": "ore_pack:block/bloc_titanium",
-    "north": "ore_pack:block/bloc_titanium",
-    "east": "ore_pack:block/bloc_titanium",
-    "south": "ore_pack:block/bloc_titanium",
-    "west": "ore_pack:block/bloc_titanium",
-    "particle": "ore_pack:block/bloc_titanium"
+    "down": "ore_pack:block/titanium_block",
+    "up": "ore_pack:block/titanium_block",
+    "north": "ore_pack:block/titanium_block",
+    "east": "ore_pack:block/titanium_block",
+    "south": "ore_pack:block/titanium_block",
+    "west": "ore_pack:block/titanium_block",
+    "particle": "ore_pack:block/titanium_block"
   },
   "render_type": "solid"
 }

@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "ore_pack:block/titanium",
+    "all": "ore_pack:block/titanium_ore",
     "particle": "ore_pack:block/particule"
   },
   "render_type": "solid"
