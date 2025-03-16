@@ -5,7 +5,7 @@
     "toolType": "Spade",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "pelle_nickel",
+    "texture": "nickel_shovel",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Pelle de nickel",

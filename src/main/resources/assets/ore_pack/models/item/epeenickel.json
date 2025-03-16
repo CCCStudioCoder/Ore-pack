@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "ore_pack:item/epee_nickel"
+    "layer0": "ore_pack:item/nickel_sword"
   }
 }

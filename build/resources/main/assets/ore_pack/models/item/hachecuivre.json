@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "ore_pack:item/hache_cuivre2"
+    "layer0": "ore_pack:item/copper_axe"
   }
 }

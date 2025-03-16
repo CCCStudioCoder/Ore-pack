@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "ore_pack:item/pioche_lapis"
+    "layer0": "ore_pack:item/lapis_lazuli_pickaxe"
   }
 }

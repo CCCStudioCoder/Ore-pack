@@ -5,7 +5,7 @@
     "toolType": "Pickaxe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "pioche_nickel",
+    "texture": "nickel_pickaxe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Pioche de nickel",

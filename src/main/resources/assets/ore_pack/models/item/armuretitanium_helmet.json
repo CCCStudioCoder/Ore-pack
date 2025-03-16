@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "ore_pack:item/casque_titan"
+    "layer0": "ore_pack:item/titanium_armor_head"
   }
 }

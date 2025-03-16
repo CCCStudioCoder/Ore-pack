@@ -5,7 +5,7 @@
     "toolType": "Pickaxe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "pioche_bronze",
+    "texture": "bronze_pickaxe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Pioche de bronze",

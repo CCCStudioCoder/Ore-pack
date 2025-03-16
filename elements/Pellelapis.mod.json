@@ -5,7 +5,7 @@
     "toolType": "Spade",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "pelle_lapis",
+    "texture": "lapis_lazuli_shovel",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Pelle de lapis-lazuli",

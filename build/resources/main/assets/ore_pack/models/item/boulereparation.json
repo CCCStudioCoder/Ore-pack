@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "ore_pack:item/boulerep"
+    "layer0": "ore_pack:item/reparation_ball"
   }
 }

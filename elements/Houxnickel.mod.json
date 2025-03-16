@@ -5,7 +5,7 @@
     "toolType": "Hoe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "houx_nickel",
+    "texture": "nickel_hoe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Houx de nickel",

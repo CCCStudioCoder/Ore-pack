@@ -70,7 +70,7 @@ public abstract class ArmuretitaniumItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "ore_pack:textures/models/armor/armure_titanium_layer_1.png";
+			return "ore_pack:textures/models/armor/titanium_armor_layer_1.png";
 		}
 
 		@Override
@@ -89,7 +89,7 @@ public abstract class ArmuretitaniumItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "ore_pack:textures/models/armor/armure_titanium_layer_1.png";
+			return "ore_pack:textures/models/armor/titanium_armor_layer_1.png";
 		}
 
 		@Override
@@ -108,7 +108,7 @@ public abstract class ArmuretitaniumItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "ore_pack:textures/models/armor/armure_titanium_layer_2.png";
+			return "ore_pack:textures/models/armor/titanium_armor_layer_2.png";
 		}
 
 		@Override
@@ -127,7 +127,7 @@ public abstract class ArmuretitaniumItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "ore_pack:textures/models/armor/armure_titanium_layer_1.png";
+			return "ore_pack:textures/models/armor/titanium_armor_layer_1.png";
 		}
 
 		@Override

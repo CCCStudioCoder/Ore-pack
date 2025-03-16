@@ -5,7 +5,7 @@
     "toolType": "Axe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "hache_cuivre2",
+    "texture": "copper_axe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Hache de cuivre",

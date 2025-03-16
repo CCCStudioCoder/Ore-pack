@@ -134,185 +134,14 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\client1\MCreatorWorkspaces\ore_pack\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for com/cccstudio/orepack/block/BlocmanganeseBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for com/cccstudio/orepack/block/BlocargentBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for com/cccstudio/orepack/block/BlocbronzeBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for com/cccstudio/orepack/block/ArgentBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
 Conflicting propagated mapping for net/minecraftforge/common/util/ForgeSoundType/getPlaceSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/level/block/SoundType/getPlaceSound()Lnet/minecraft/sounds/SoundEvent;: getPlaceSound -> m_56777_
 Conflicting propagated mapping for net/minecraftforge/common/util/ForgeSoundType/getFallSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/level/block/SoundType/getFallSound()Lnet/minecraft/sounds/SoundEvent;: getFallSound -> m_56779_
 Conflicting propagated mapping for net/minecraftforge/common/util/ForgeSoundType/getStepSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/level/block/SoundType/getStepSound()Lnet/minecraft/sounds/SoundEvent;: getStepSound -> m_56776_
 Conflicting propagated mapping for net/minecraftforge/common/util/ForgeSoundType/getHitSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/level/block/SoundType/getHitSound()Lnet/minecraft/sounds/SoundEvent;: getHitSound -> m_56778_
 Conflicting propagated mapping for net/minecraftforge/common/util/ForgeSoundType/getBreakSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/level/block/SoundType/getBreakSound()Lnet/minecraft/sounds/SoundEvent;: getBreakSound -> m_56775_
-Conflicting propagated mapping for com/cccstudio/orepack/block/BlocnickelBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for com/cccstudio/orepack/block/BloctitaniumBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for com/cccstudio/orepack/block/BronzeBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for com/cccstudio/orepack/block/DallebronzeBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for com/cccstudio/orepack/block/DallemanganeseBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for com/cccstudio/orepack/block/DalleargentBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for com/cccstudio/orepack/block/DallenickelBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for com/cccstudio/orepack/block/DalletitaniumBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for com/cccstudio/orepack/block/EscalierargentBlock/getExplosionResistance()F from net/minecraft/world/level/block/StairBlock/getExplosionResistance()F: getExplosionResistance -> m_7325_
-Conflicting propagated mapping for com/cccstudio/orepack/block/EscalierargentBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/StairBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
-Conflicting propagated mapping for com/cccstudio/orepack/block/EscalierbronzeBlock/getExplosionResistance()F from net/minecraft/world/level/block/StairBlock/getExplosionResistance()F: getExplosionResistance -> m_7325_
-Conflicting propagated mapping for com/cccstudio/orepack/block/EscalierbronzeBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for com/cccstudio/orepack/block/EscalierbronzeBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/StairBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
-Conflicting propagated mapping for com/cccstudio/orepack/block/EscaliermanganeseBlock/getExplosionResistance()F from net/minecraft/world/level/block/StairBlock/getExplosionResistance()F: getExplosionResistance -> m_7325_
-Conflicting propagated mapping for com/cccstudio/orepack/block/EscaliermanganeseBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for com/cccstudio/orepack/block/EscaliermanganeseBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/StairBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
-Conflicting propagated mapping for com/cccstudio/orepack/block/EscaliernickelBlock/getExplosionResistance()F from net/minecraft/world/level/block/StairBlock/getExplosionResistance()F: getExplosionResistance -> m_7325_
-Conflicting propagated mapping for com/cccstudio/orepack/block/EscaliernickelBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for com/cccstudio/orepack/block/EscaliernickelBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/StairBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
-Conflicting propagated mapping for com/cccstudio/orepack/block/EscaliertitaniumBlock/getExplosionResistance()F from net/minecraft/world/level/block/StairBlock/getExplosionResistance()F: getExplosionResistance -> m_7325_
-Conflicting propagated mapping for com/cccstudio/orepack/block/EscaliertitaniumBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for com/cccstudio/orepack/block/EscaliertitaniumBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/StairBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
-Conflicting propagated mapping for com/cccstudio/orepack/block/NickelBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for com/cccstudio/orepack/block/TitaniumBlock/isSignalSource(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/state/BlockBehaviour/isSignalSource(Lnet/minecraft/world/level/block/state/BlockState;)Z: isSignalSource -> m_7899_
-Conflicting propagated mapping for com/cccstudio/orepack/block/TitaniumBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for com/cccstudio/orepack/block/TitaniumBlock/getSignal(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)I from net/minecraft/world/level/block/state/BlockBehaviour/getSignal(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)I: getSignal -> m_6378_
-Conflicting propagated mapping for com/cccstudio/orepack/block/ManganeseBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
-Conflicting propagated mapping for com/cccstudio/orepack/item/ArmuretitaniumItem$Boots/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V from net/minecraft/world/item/Item/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V: inventoryTick -> m_6883_
-Conflicting propagated mapping for com/cccstudio/orepack/item/ArmuretitaniumItem$Leggings/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V from net/minecraft/world/item/Item/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V: inventoryTick -> m_6883_
-Conflicting propagated mapping for com/cccstudio/orepack/item/ArmuretitaniumItem$Chestplate/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V from net/minecraft/world/item/Item/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V: inventoryTick -> m_6883_
-Conflicting propagated mapping for com/cccstudio/orepack/item/ArmuretitaniumItem$Helmet/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V from net/minecraft/world/item/Item/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V: inventoryTick -> m_6883_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeebronzeItem/mineBlock(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/SwordItem/mineBlock(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)Z: mineBlock -> m_6813_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeecuivreItem/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V from net/minecraft/world/item/Item/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V: inventoryTick -> m_6883_
-Conflicting propagated mapping for com/cccstudio/orepack/item/ArmuretitaniumItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
-Conflicting propagated mapping for com/cccstudio/orepack/item/ArmuretitaniumItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
-Conflicting propagated mapping for com/cccstudio/orepack/item/ArmuretitaniumItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
-Conflicting propagated mapping for com/cccstudio/orepack/item/ArmuretitaniumItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
-Conflicting propagated mapping for com/cccstudio/orepack/item/ArmuretitaniumItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
-Conflicting propagated mapping for com/cccstudio/orepack/item/ArmuretitaniumItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
-Conflicting propagated mapping for com/cccstudio/orepack/item/ArmuretitaniumItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
-Conflicting propagated mapping for com/cccstudio/orepack/item/ArmuretitaniumItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
 Conflicting propagated mapping for net/minecraftforge/common/BasicItemListing/getOffer(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer; from net/minecraft/world/entity/npc/VillagerTrades$ItemListing/getOffer(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer;: getOffer -> m_213663_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeebronzeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeebronzeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeebronzeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeebronzeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeebronzeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeebronzeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeecuivreItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeecuivreItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeecuivreItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeecuivreItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeecuivreItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeecuivreItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeelapisItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeelapisItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeelapisItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeelapisItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeelapisItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeelapisItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeenickelItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeenickelItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeenickelItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeenickelItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeenickelItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeenickelItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeetitaniumItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeetitaniumItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeetitaniumItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeetitaniumItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeetitaniumItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/EpeetitaniumItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachecuivreItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachecuivreItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachecuivreItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachecuivreItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachecuivreItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachecuivreItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachelapisItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachelapisItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachelapisItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachelapisItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachelapisItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachelapisItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachenickelItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachenickelItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachenickelItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachenickelItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachenickelItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachenickelItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachetitaniumItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachetitaniumItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachetitaniumItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachetitaniumItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachetitaniumItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HachetitaniumItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HouxlapisItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HouxlapisItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HouxlapisItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HouxlapisItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HouxlapisItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HouxlapisItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HouxnickelItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HouxnickelItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HouxnickelItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HouxnickelItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HouxnickelItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/HouxnickelItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellebronzeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellebronzeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellebronzeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellebronzeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellebronzeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellecuivreItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellecuivreItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellecuivreItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellecuivreItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellecuivreItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellecuivreItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellebronzeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellelapisItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellelapisItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellelapisItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellelapisItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellelapisItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellelapisItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellenickelItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellenickelItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellenickelItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellenickelItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellenickelItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PellenickelItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PelletitaniumItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PelletitaniumItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PelletitaniumItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PelletitaniumItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PelletitaniumItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PelletitaniumItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochebronzeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochebronzeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochebronzeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochebronzeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochebronzeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochebronzeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochecuivreItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochecuivreItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochecuivreItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochecuivreItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochecuivreItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochecuivreItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochelapisItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochelapisItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochelapisItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochelapisItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochelapisItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochelapisItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochenickelItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochenickelItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochenickelItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochenickelItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochenickelItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochetitaniumItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochetitaniumItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochetitaniumItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochetitaniumItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochetitaniumItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochetitaniumItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for com/cccstudio/orepack/item/PiochenickelItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z from net/minecraft/server/level/ServerPlayer/isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z: isInvulnerableTo -> m_6673_
 Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/canHarmPlayer(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/server/level/ServerPlayer/canHarmPlayer(Lnet/minecraft/world/entity/player/Player;)Z: canHarmPlayer -> m_7099_
 Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/updateOptions(Lnet/minecraft/network/protocol/game/ServerboundClientInformationPacket;)V from net/minecraft/server/level/ServerPlayer/updateOptions(Lnet/minecraft/network/protocol/game/ServerboundClientInformationPacket;)V: updateOptions -> m_9156_
@@ -460,58 +289,53 @@ Writing Output: C:\Users\client1\MCreatorWorkspaces\ore_pack\build\reobfJar\outp
   assets/ore_pack/textures/block/manganese_ore.png
   assets/ore_pack/textures/block/nickel_block.png
   assets/ore_pack/textures/block/nickel_ore.png
-  assets/ore_pack/textures/block/particule.png
   assets/ore_pack/textures/block/silver_block.png
   assets/ore_pack/textures/block/silver_ore.png
   assets/ore_pack/textures/block/titanium_block.png
   assets/ore_pack/textures/block/titanium_ore.png
   assets/ore_pack/textures/capture_decran_2025-03-12_181852.png
   assets/ore_pack/textures/item/
-  assets/ore_pack/textures/item/argent_brut.png
-  assets/ore_pack/textures/item/armure_titanium_body.png
-  assets/ore_pack/textures/item/armure_titanium_boots.png
-  assets/ore_pack/textures/item/armure_titanium_head.png
-  assets/ore_pack/textures/item/armure_titanium_leggings.png
-  assets/ore_pack/textures/item/botte_titan.png
-  assets/ore_pack/textures/item/boulerep.png
-  assets/ore_pack/textures/item/bronze_brut.png
   assets/ore_pack/textures/item/bronze_ingot.png
-  assets/ore_pack/textures/item/casque_titan.png
-  assets/ore_pack/textures/item/epee_bronze.png
-  assets/ore_pack/textures/item/epee_cuivre.png
-  assets/ore_pack/textures/item/epee_lapis.png
-  assets/ore_pack/textures/item/epee_nickel.png
-  assets/ore_pack/textures/item/epee_titanium.png
-  assets/ore_pack/textures/item/hache_cuivre2.png
-  assets/ore_pack/textures/item/hache_lapis.png
-  assets/ore_pack/textures/item/hache_nickel.png
-  assets/ore_pack/textures/item/hache_titanium.png
-  assets/ore_pack/textures/item/houx_lapis.png
-  assets/ore_pack/textures/item/houx_nickel.png
+  assets/ore_pack/textures/item/bronze_pickaxe.png
+  assets/ore_pack/textures/item/bronze_shovel.png
+  assets/ore_pack/textures/item/bronze_sword.png
+  assets/ore_pack/textures/item/copper_axe.png
+  assets/ore_pack/textures/item/copper_pickaxe.png
+  assets/ore_pack/textures/item/copper_shovel.png
+  assets/ore_pack/textures/item/copper_sword.png
+  assets/ore_pack/textures/item/lapis_lazuli_axe.png
+  assets/ore_pack/textures/item/lapis_lazuli_hoe.png
+  assets/ore_pack/textures/item/lapis_lazuli_pickaxe.png
+  assets/ore_pack/textures/item/lapis_lazuli_shovel.png
+  assets/ore_pack/textures/item/lapis_lazuli_sword.png
   assets/ore_pack/textures/item/manganese_ingot.png
   assets/ore_pack/textures/item/nickel.png
-  assets/ore_pack/textures/item/nickelbrut.png
-  assets/ore_pack/textures/item/p2.png
-  assets/ore_pack/textures/item/pantalon_titanium.png
-  assets/ore_pack/textures/item/pelle_bronze.png
-  assets/ore_pack/textures/item/pelle_cuivre.png
-  assets/ore_pack/textures/item/pelle_lapis.png
-  assets/ore_pack/textures/item/pelle_nickel.png
-  assets/ore_pack/textures/item/pelle_titanium.png
-  assets/ore_pack/textures/item/pepite.png
+  assets/ore_pack/textures/item/nickel_axe.png
+  assets/ore_pack/textures/item/nickel_hoe.png
+  assets/ore_pack/textures/item/nickel_pickaxe.png
+  assets/ore_pack/textures/item/nickel_shovel.png
+  assets/ore_pack/textures/item/nickel_sword.png
   assets/ore_pack/textures/item/pepite_titanium.png
-  assets/ore_pack/textures/item/pioche_bronze.png
-  assets/ore_pack/textures/item/pioche_cuivre.png
-  assets/ore_pack/textures/item/pioche_lapis.png
-  assets/ore_pack/textures/item/pioche_nickel.png
   assets/ore_pack/textures/item/pioche_titanium.png
-  assets/ore_pack/textures/item/plastron_tiatn.png
+  assets/ore_pack/textures/item/raw_bronze.png
+  assets/ore_pack/textures/item/raw_manganese.png
+  assets/ore_pack/textures/item/raw_nickel.png
+  assets/ore_pack/textures/item/raw_silver.png
+  assets/ore_pack/textures/item/reparation_ball.png
   assets/ore_pack/textures/item/silver_part.png
   assets/ore_pack/textures/item/titanbr.png
+  assets/ore_pack/textures/item/titanium_armor_body.png
+  assets/ore_pack/textures/item/titanium_armor_boots.png
+  assets/ore_pack/textures/item/titanium_armor_head.png
+  assets/ore_pack/textures/item/titanium_armor_leggings.png
+  assets/ore_pack/textures/item/titanium_axe.png
+  assets/ore_pack/textures/item/titanium_pickaxe.png
+  assets/ore_pack/textures/item/titanium_shovel.png
+  assets/ore_pack/textures/item/titanium_sword.png
   assets/ore_pack/textures/models/
   assets/ore_pack/textures/models/armor/
-  assets/ore_pack/textures/models/armor/armure_titanium_layer_1.png
-  assets/ore_pack/textures/models/armor/armure_titanium_layer_2.png
+  assets/ore_pack/textures/models/armor/titanium_armor_layer_1.png
+  assets/ore_pack/textures/models/armor/titanium_armor_layer_2.png
   com/
   com/cccstudio/
   com/cccstudio/orepack/

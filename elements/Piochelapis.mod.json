@@ -5,7 +5,7 @@
     "toolType": "Pickaxe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "pioche_lapis",
+    "texture": "lapis_lazuli_pickaxe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Pioche de lapis-lazuli",
