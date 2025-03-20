@@ -134,22 +134,6 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\client1\MCreatorWorkspaces\ore_pack\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for net/minecraftforge/common/util/ForgeSoundType/getPlaceSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/level/block/SoundType/getPlaceSound()Lnet/minecraft/sounds/SoundEvent;: getPlaceSound -> m_56777_
-Conflicting propagated mapping for net/minecraftforge/common/util/ForgeSoundType/getFallSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/level/block/SoundType/getFallSound()Lnet/minecraft/sounds/SoundEvent;: getFallSound -> m_56779_
-Conflicting propagated mapping for net/minecraftforge/common/util/ForgeSoundType/getStepSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/level/block/SoundType/getStepSound()Lnet/minecraft/sounds/SoundEvent;: getStepSound -> m_56776_
-Conflicting propagated mapping for net/minecraftforge/common/util/ForgeSoundType/getHitSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/level/block/SoundType/getHitSound()Lnet/minecraft/sounds/SoundEvent;: getHitSound -> m_56778_
-Conflicting propagated mapping for net/minecraftforge/common/util/ForgeSoundType/getBreakSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/level/block/SoundType/getBreakSound()Lnet/minecraft/sounds/SoundEvent;: getBreakSound -> m_56775_
-Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
-Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
-Conflicting propagated mapping for net/minecraftforge/common/BasicItemListing/getOffer(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer; from net/minecraft/world/entity/npc/VillagerTrades$ItemListing/getOffer(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer;: getOffer -> m_213663_
-Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z from net/minecraft/server/level/ServerPlayer/isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z: isInvulnerableTo -> m_6673_
-Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/canHarmPlayer(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/server/level/ServerPlayer/canHarmPlayer(Lnet/minecraft/world/entity/player/Player;)Z: canHarmPlayer -> m_7099_
-Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/updateOptions(Lnet/minecraft/network/protocol/game/ServerboundClientInformationPacket;)V from net/minecraft/server/level/ServerPlayer/updateOptions(Lnet/minecraft/network/protocol/game/ServerboundClientInformationPacket;)V: updateOptions -> m_9156_
-Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/displayClientMessage(Lnet/minecraft/network/chat/Component;Z)V from net/minecraft/server/level/ServerPlayer/displayClientMessage(Lnet/minecraft/network/chat/Component;Z)V: displayClientMessage -> m_5661_
-Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/die(Lnet/minecraft/world/damagesource/DamageSource;)V from net/minecraft/server/level/ServerPlayer/die(Lnet/minecraft/world/damagesource/DamageSource;)V: die -> m_6667_
-Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/tick()V from net/minecraft/server/level/ServerPlayer/tick()V: tick -> m_8119_
-Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/getServer()Lnet/minecraft/server/MinecraftServer; from net/minecraft/world/entity/Entity/getServer()Lnet/minecraft/server/MinecraftServer;: getServer -> m_20194_
-Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/awardStat(Lnet/minecraft/stats/Stat;I)V from net/minecraft/server/level/ServerPlayer/awardStat(Lnet/minecraft/stats/Stat;I)V: awardStat -> m_6278_
 Adding extras
 Sorting
 Writing Output: C:\Users\client1\MCreatorWorkspaces\ore_pack\build\reobfJar\output.jar
@@ -159,127 +143,147 @@ Writing Output: C:\Users\client1\MCreatorWorkspaces\ore_pack\build\reobfJar\outp
   assets/
   assets/ore_pack/
   assets/ore_pack/blockstates/
-  assets/ore_pack/blockstates/argent.json
-  assets/ore_pack/blockstates/blocargent.json
-  assets/ore_pack/blockstates/blocbronze.json
-  assets/ore_pack/blockstates/blocmanganese.json
-  assets/ore_pack/blockstates/blocnickel.json
-  assets/ore_pack/blockstates/bloctitanium.json
-  assets/ore_pack/blockstates/bronze.json
-  assets/ore_pack/blockstates/dalleargent.json
-  assets/ore_pack/blockstates/dallebronze.json
-  assets/ore_pack/blockstates/dallemanganese.json
-  assets/ore_pack/blockstates/dallenickel.json
+  assets/ore_pack/blockstates/bronze_block.json
+  assets/ore_pack/blockstates/bronze_ore.json
+  assets/ore_pack/blockstates/bronze_slab.json
+  assets/ore_pack/blockstates/bronze_stairs.json
   assets/ore_pack/blockstates/dalletitanium.json
-  assets/ore_pack/blockstates/escalierargent.json
-  assets/ore_pack/blockstates/escalierbronze.json
-  assets/ore_pack/blockstates/escaliermanganese.json
-  assets/ore_pack/blockstates/escaliernickel.json
   assets/ore_pack/blockstates/escaliertitanium.json
-  assets/ore_pack/blockstates/manganese.json
-  assets/ore_pack/blockstates/nickel.json
-  assets/ore_pack/blockstates/titanium.json
+  assets/ore_pack/blockstates/manganese_block.json
+  assets/ore_pack/blockstates/manganese_ore.json
+  assets/ore_pack/blockstates/manganese_slab.json
+  assets/ore_pack/blockstates/manganese_stairs.json
+  assets/ore_pack/blockstates/nickel_block.json
+  assets/ore_pack/blockstates/nickel_ore.json
+  assets/ore_pack/blockstates/nickel_slab.json
+  assets/ore_pack/blockstates/nickel_stairs.json
+  assets/ore_pack/blockstates/silver_block.json
+  assets/ore_pack/blockstates/silver_ore.json
+  assets/ore_pack/blockstates/silver_slab.json
+  assets/ore_pack/blockstates/silver_stairs.json
+  assets/ore_pack/blockstates/titanium_block.json
+  assets/ore_pack/blockstates/titanium_ore.json
+  assets/ore_pack/blockstates/titanium_slab.json
+  assets/ore_pack/blockstates/titanium_stairs.json
   assets/ore_pack/lang/
   assets/ore_pack/lang/en_us.json
   assets/ore_pack/lang/fr_fr.json
   assets/ore_pack/models/
   assets/ore_pack/models/block/
-  assets/ore_pack/models/block/argent.json
-  assets/ore_pack/models/block/blocargent.json
-  assets/ore_pack/models/block/blocbronze.json
-  assets/ore_pack/models/block/blocmanganese.json
-  assets/ore_pack/models/block/blocnickel.json
-  assets/ore_pack/models/block/bloctitanium.json
-  assets/ore_pack/models/block/bronze.json
-  assets/ore_pack/models/block/dalleargent.json
-  assets/ore_pack/models/block/dalleargent_full.json
-  assets/ore_pack/models/block/dalleargent_top.json
-  assets/ore_pack/models/block/dallebronze.json
-  assets/ore_pack/models/block/dallebronze_full.json
-  assets/ore_pack/models/block/dallebronze_top.json
-  assets/ore_pack/models/block/dallemanganese.json
-  assets/ore_pack/models/block/dallemanganese_full.json
-  assets/ore_pack/models/block/dallemanganese_top.json
-  assets/ore_pack/models/block/dallenickel.json
-  assets/ore_pack/models/block/dallenickel_full.json
-  assets/ore_pack/models/block/dallenickel_top.json
+  assets/ore_pack/models/block/bronze_block.json
+  assets/ore_pack/models/block/bronze_ore.json
+  assets/ore_pack/models/block/bronze_slab.json
+  assets/ore_pack/models/block/bronze_slab_full.json
+  assets/ore_pack/models/block/bronze_slab_top.json
+  assets/ore_pack/models/block/bronze_stairs.json
+  assets/ore_pack/models/block/bronze_stairs_inner.json
+  assets/ore_pack/models/block/bronze_stairs_outer.json
   assets/ore_pack/models/block/dalletitanium.json
   assets/ore_pack/models/block/dalletitanium_full.json
   assets/ore_pack/models/block/dalletitanium_top.json
-  assets/ore_pack/models/block/escalierargent.json
-  assets/ore_pack/models/block/escalierargent_inner.json
-  assets/ore_pack/models/block/escalierargent_outer.json
-  assets/ore_pack/models/block/escalierbronze.json
-  assets/ore_pack/models/block/escalierbronze_inner.json
-  assets/ore_pack/models/block/escalierbronze_outer.json
-  assets/ore_pack/models/block/escaliermanganese.json
-  assets/ore_pack/models/block/escaliermanganese_inner.json
-  assets/ore_pack/models/block/escaliermanganese_outer.json
-  assets/ore_pack/models/block/escaliernickel.json
-  assets/ore_pack/models/block/escaliernickel_inner.json
-  assets/ore_pack/models/block/escaliernickel_outer.json
   assets/ore_pack/models/block/escaliertitanium.json
   assets/ore_pack/models/block/escaliertitanium_inner.json
   assets/ore_pack/models/block/escaliertitanium_outer.json
-  assets/ore_pack/models/block/manganese.json
-  assets/ore_pack/models/block/nickel.json
-  assets/ore_pack/models/block/titanium.json
+  assets/ore_pack/models/block/manganese_block.json
+  assets/ore_pack/models/block/manganese_ore.json
+  assets/ore_pack/models/block/manganese_slab.json
+  assets/ore_pack/models/block/manganese_slab_full.json
+  assets/ore_pack/models/block/manganese_slab_top.json
+  assets/ore_pack/models/block/manganese_stairs.json
+  assets/ore_pack/models/block/manganese_stairs_inner.json
+  assets/ore_pack/models/block/manganese_stairs_outer.json
+  assets/ore_pack/models/block/nickel_block.json
+  assets/ore_pack/models/block/nickel_ore.json
+  assets/ore_pack/models/block/nickel_slab.json
+  assets/ore_pack/models/block/nickel_slab_full.json
+  assets/ore_pack/models/block/nickel_slab_top.json
+  assets/ore_pack/models/block/nickel_stairs.json
+  assets/ore_pack/models/block/nickel_stairs_inner.json
+  assets/ore_pack/models/block/nickel_stairs_outer.json
+  assets/ore_pack/models/block/silver_block.json
+  assets/ore_pack/models/block/silver_ore.json
+  assets/ore_pack/models/block/silver_slab.json
+  assets/ore_pack/models/block/silver_slab_full.json
+  assets/ore_pack/models/block/silver_slab_top.json
+  assets/ore_pack/models/block/silver_stairs.json
+  assets/ore_pack/models/block/silver_stairs_inner.json
+  assets/ore_pack/models/block/silver_stairs_outer.json
+  assets/ore_pack/models/block/titanium_block.json
+  assets/ore_pack/models/block/titanium_ore.json
+  assets/ore_pack/models/block/titanium_slab.json
+  assets/ore_pack/models/block/titanium_slab_full.json
+  assets/ore_pack/models/block/titanium_slab_top.json
+  assets/ore_pack/models/block/titanium_stairs.json
+  assets/ore_pack/models/block/titanium_stairs_inner.json
+  assets/ore_pack/models/block/titanium_stairs_outer.json
   assets/ore_pack/models/item/
-  assets/ore_pack/models/item/argent.json
-  assets/ore_pack/models/item/argentbrut.json
   assets/ore_pack/models/item/armuretitanium_boots.json
   assets/ore_pack/models/item/armuretitanium_chestplate.json
   assets/ore_pack/models/item/armuretitanium_helmet.json
   assets/ore_pack/models/item/armuretitanium_leggings.json
-  assets/ore_pack/models/item/blocargent.json
-  assets/ore_pack/models/item/blocbronze.json
-  assets/ore_pack/models/item/blocmanganese.json
-  assets/ore_pack/models/item/blocnickel.json
-  assets/ore_pack/models/item/bloctitanium.json
-  assets/ore_pack/models/item/boulereparation.json
-  assets/ore_pack/models/item/bronze.json
-  assets/ore_pack/models/item/bronzebrut.json
-  assets/ore_pack/models/item/dalleargent.json
-  assets/ore_pack/models/item/dallebronze.json
-  assets/ore_pack/models/item/dallemanganese.json
-  assets/ore_pack/models/item/dallenickel.json
+  assets/ore_pack/models/item/bronze_block.json
+  assets/ore_pack/models/item/bronze_ingot.json
+  assets/ore_pack/models/item/bronze_ore.json
+  assets/ore_pack/models/item/bronze_pickaxe.json
+  assets/ore_pack/models/item/bronze_shovel.json
+  assets/ore_pack/models/item/bronze_slab.json
+  assets/ore_pack/models/item/bronze_stairs.json
+  assets/ore_pack/models/item/bronze_sword.json
   assets/ore_pack/models/item/dalletitanium.json
-  assets/ore_pack/models/item/epeebronze.json
   assets/ore_pack/models/item/epeecuivre.json
   assets/ore_pack/models/item/epeelapis.json
-  assets/ore_pack/models/item/epeenickel.json
   assets/ore_pack/models/item/epeetitanium.json
-  assets/ore_pack/models/item/escalierargent.json
-  assets/ore_pack/models/item/escalierbronze.json
-  assets/ore_pack/models/item/escaliermanganese.json
-  assets/ore_pack/models/item/escaliernickel.json
   assets/ore_pack/models/item/escaliertitanium.json
   assets/ore_pack/models/item/hachecuivre.json
   assets/ore_pack/models/item/hachelapis.json
-  assets/ore_pack/models/item/hachenickel.json
   assets/ore_pack/models/item/hachetitanium.json
   assets/ore_pack/models/item/houxlapis.json
-  assets/ore_pack/models/item/houxnickel.json
-  assets/ore_pack/models/item/manganese.json
-  assets/ore_pack/models/item/manganesenbrut.json
+  assets/ore_pack/models/item/manganese_block.json
+  assets/ore_pack/models/item/manganese_ingot.json
+  assets/ore_pack/models/item/manganese_ore.json
+  assets/ore_pack/models/item/manganese_slab.json
+  assets/ore_pack/models/item/manganese_stairs.json
   assets/ore_pack/models/item/nickel.json
-  assets/ore_pack/models/item/nickelbrut.json
-  assets/ore_pack/models/item/pellebronze.json
+  assets/ore_pack/models/item/nickel_axe.json
+  assets/ore_pack/models/item/nickel_block.json
+  assets/ore_pack/models/item/nickel_hoe.json
+  assets/ore_pack/models/item/nickel_ore.json
+  assets/ore_pack/models/item/nickel_pickaxe.json
+  assets/ore_pack/models/item/nickel_shovel.json
+  assets/ore_pack/models/item/nickel_slab.json
+  assets/ore_pack/models/item/nickel_stairs.json
+  assets/ore_pack/models/item/nickel_sword.json
   assets/ore_pack/models/item/pellecuivre.json
   assets/ore_pack/models/item/pellelapis.json
-  assets/ore_pack/models/item/pellenickel.json
   assets/ore_pack/models/item/pelletitanium.json
-  assets/ore_pack/models/item/pepite_argent.json
-  assets/ore_pack/models/item/pepitebronze.json
-  assets/ore_pack/models/item/pepitedemanganese.json
-  assets/ore_pack/models/item/pepitenickel.json
   assets/ore_pack/models/item/pepitetitanium.json
-  assets/ore_pack/models/item/piochebronze.json
   assets/ore_pack/models/item/piochecuivre.json
   assets/ore_pack/models/item/piochelapis.json
-  assets/ore_pack/models/item/piochenickel.json
   assets/ore_pack/models/item/piochetitanium.json
-  assets/ore_pack/models/item/titanium.json
+  assets/ore_pack/models/item/raw_bronze.json
+  assets/ore_pack/models/item/raw_manganese.json
+  assets/ore_pack/models/item/raw_nickel.json
+  assets/ore_pack/models/item/raw_silver.json
+  assets/ore_pack/models/item/raw_titanium.json
+  assets/ore_pack/models/item/reparation_ball.json
+  assets/ore_pack/models/item/silver_block.json
+  assets/ore_pack/models/item/silver_nugget.json
+  assets/ore_pack/models/item/silver_ore.json
+  assets/ore_pack/models/item/silver_slab.json
+  assets/ore_pack/models/item/silver_stairs.json
+  assets/ore_pack/models/item/titanium_axe.json
+  assets/ore_pack/models/item/titanium_block.json
+  assets/ore_pack/models/item/titanium_boots.json
+  assets/ore_pack/models/item/titanium_chestplate.json
+  assets/ore_pack/models/item/titanium_helmet.json
+  assets/ore_pack/models/item/titanium_leggings.json
+  assets/ore_pack/models/item/titanium_nugget.json
+  assets/ore_pack/models/item/titanium_ore.json
+  assets/ore_pack/models/item/titanium_pickaxe.json
+  assets/ore_pack/models/item/titanium_shovel.json
+  assets/ore_pack/models/item/titanium_slab.json
+  assets/ore_pack/models/item/titanium_stairs.json
+  assets/ore_pack/models/item/titanium_sword.json
   assets/ore_pack/models/item/titaniumbrut.json
   assets/ore_pack/textures/
   assets/ore_pack/textures/block/
@@ -315,12 +319,11 @@ Writing Output: C:\Users\client1\MCreatorWorkspaces\ore_pack\build\reobfJar\outp
   assets/ore_pack/textures/item/nickel_pickaxe.png
   assets/ore_pack/textures/item/nickel_shovel.png
   assets/ore_pack/textures/item/nickel_sword.png
-  assets/ore_pack/textures/item/pepite_titanium.png
-  assets/ore_pack/textures/item/pioche_titanium.png
   assets/ore_pack/textures/item/raw_bronze.png
   assets/ore_pack/textures/item/raw_manganese.png
   assets/ore_pack/textures/item/raw_nickel.png
   assets/ore_pack/textures/item/raw_silver.png
+  assets/ore_pack/textures/item/raw_titanium.png
   assets/ore_pack/textures/item/reparation_ball.png
   assets/ore_pack/textures/item/silver_part.png
   assets/ore_pack/textures/item/titanbr.png
@@ -329,6 +332,7 @@ Writing Output: C:\Users\client1\MCreatorWorkspaces\ore_pack\build\reobfJar\outp
   assets/ore_pack/textures/item/titanium_armor_head.png
   assets/ore_pack/textures/item/titanium_armor_leggings.png
   assets/ore_pack/textures/item/titanium_axe.png
+  assets/ore_pack/textures/item/titanium_nugget.png
   assets/ore_pack/textures/item/titanium_pickaxe.png
   assets/ore_pack/textures/item/titanium_shovel.png
   assets/ore_pack/textures/item/titanium_sword.png
@@ -336,108 +340,6 @@ Writing Output: C:\Users\client1\MCreatorWorkspaces\ore_pack\build\reobfJar\outp
   assets/ore_pack/textures/models/armor/
   assets/ore_pack/textures/models/armor/titanium_armor_layer_1.png
   assets/ore_pack/textures/models/armor/titanium_armor_layer_2.png
-  com/
-  com/cccstudio/
-  com/cccstudio/orepack/
-  com/cccstudio/orepack/OrePackMod.class
-  com/cccstudio/orepack/block/
-  com/cccstudio/orepack/block/ArgentBlock.class
-  com/cccstudio/orepack/block/BlocargentBlock.class
-  com/cccstudio/orepack/block/BlocbronzeBlock.class
-  com/cccstudio/orepack/block/BlocmanganeseBlock.class
-  com/cccstudio/orepack/block/BlocnickelBlock.class
-  com/cccstudio/orepack/block/BloctitaniumBlock.class
-  com/cccstudio/orepack/block/BronzeBlock.class
-  com/cccstudio/orepack/block/DalleargentBlock.class
-  com/cccstudio/orepack/block/DallebronzeBlock.class
-  com/cccstudio/orepack/block/DallemanganeseBlock.class
-  com/cccstudio/orepack/block/DallenickelBlock.class
-  com/cccstudio/orepack/block/DalletitaniumBlock.class
-  com/cccstudio/orepack/block/EscalierargentBlock.class
-  com/cccstudio/orepack/block/EscalierbronzeBlock.class
-  com/cccstudio/orepack/block/EscaliermanganeseBlock.class
-  com/cccstudio/orepack/block/EscaliernickelBlock.class
-  com/cccstudio/orepack/block/EscaliertitaniumBlock.class
-  com/cccstudio/orepack/block/ManganeseBlock.class
-  com/cccstudio/orepack/block/NickelBlock.class
-  com/cccstudio/orepack/block/TitaniumBlock.class
-  com/cccstudio/orepack/init/
-  com/cccstudio/orepack/init/OrePackModBlocks.class
-  com/cccstudio/orepack/init/OrePackModItems.class
-  com/cccstudio/orepack/init/OrePackModTabs.class
-  com/cccstudio/orepack/init/OrePackModTrades.class
-  com/cccstudio/orepack/item/
-  com/cccstudio/orepack/item/ArgentbrutItem.class
-  com/cccstudio/orepack/item/ArmuretitaniumItem$1.class
-  com/cccstudio/orepack/item/ArmuretitaniumItem$Boots.class
-  com/cccstudio/orepack/item/ArmuretitaniumItem$Chestplate.class
-  com/cccstudio/orepack/item/ArmuretitaniumItem$Helmet.class
-  com/cccstudio/orepack/item/ArmuretitaniumItem$Leggings.class
-  com/cccstudio/orepack/item/ArmuretitaniumItem.class
-  com/cccstudio/orepack/item/BoulereparationItem.class
-  com/cccstudio/orepack/item/BronzebrutItem.class
-  com/cccstudio/orepack/item/EpeebronzeItem$1.class
-  com/cccstudio/orepack/item/EpeebronzeItem.class
-  com/cccstudio/orepack/item/EpeecuivreItem$1.class
-  com/cccstudio/orepack/item/EpeecuivreItem.class
-  com/cccstudio/orepack/item/EpeelapisItem$1.class
-  com/cccstudio/orepack/item/EpeelapisItem.class
-  com/cccstudio/orepack/item/EpeenickelItem$1.class
-  com/cccstudio/orepack/item/EpeenickelItem.class
-  com/cccstudio/orepack/item/EpeetitaniumItem$1.class
-  com/cccstudio/orepack/item/EpeetitaniumItem.class
-  com/cccstudio/orepack/item/HachecuivreItem$1.class
-  com/cccstudio/orepack/item/HachecuivreItem.class
-  com/cccstudio/orepack/item/HachelapisItem$1.class
-  com/cccstudio/orepack/item/HachelapisItem.class
-  com/cccstudio/orepack/item/HachenickelItem$1.class
-  com/cccstudio/orepack/item/HachenickelItem.class
-  com/cccstudio/orepack/item/HachetitaniumItem$1.class
-  com/cccstudio/orepack/item/HachetitaniumItem.class
-  com/cccstudio/orepack/item/HouxlapisItem$1.class
-  com/cccstudio/orepack/item/HouxlapisItem.class
-  com/cccstudio/orepack/item/HouxnickelItem$1.class
-  com/cccstudio/orepack/item/HouxnickelItem.class
-  com/cccstudio/orepack/item/ManganesenbrutItem.class
-  com/cccstudio/orepack/item/NickelbrutItem.class
-  com/cccstudio/orepack/item/PellebronzeItem$1.class
-  com/cccstudio/orepack/item/PellebronzeItem.class
-  com/cccstudio/orepack/item/PellecuivreItem$1.class
-  com/cccstudio/orepack/item/PellecuivreItem.class
-  com/cccstudio/orepack/item/PellelapisItem$1.class
-  com/cccstudio/orepack/item/PellelapisItem.class
-  com/cccstudio/orepack/item/PellenickelItem$1.class
-  com/cccstudio/orepack/item/PellenickelItem.class
-  com/cccstudio/orepack/item/PelletitaniumItem$1.class
-  com/cccstudio/orepack/item/PelletitaniumItem.class
-  com/cccstudio/orepack/item/PepiteArgentItem.class
-  com/cccstudio/orepack/item/PepitebronzeItem.class
-  com/cccstudio/orepack/item/PepitedemanganeseItem.class
-  com/cccstudio/orepack/item/PepitenickelItem.class
-  com/cccstudio/orepack/item/PepitetitaniumItem.class
-  com/cccstudio/orepack/item/PiochebronzeItem$1.class
-  com/cccstudio/orepack/item/PiochebronzeItem.class
-  com/cccstudio/orepack/item/PiochecuivreItem$1.class
-  com/cccstudio/orepack/item/PiochecuivreItem.class
-  com/cccstudio/orepack/item/PiochelapisItem$1.class
-  com/cccstudio/orepack/item/PiochelapisItem.class
-  com/cccstudio/orepack/item/PiochenickelItem$1.class
-  com/cccstudio/orepack/item/PiochenickelItem.class
-  com/cccstudio/orepack/item/PiochetitaniumItem$1.class
-  com/cccstudio/orepack/item/PiochetitaniumItem.class
-  com/cccstudio/orepack/item/TitaniumbrutItem.class
-  com/cccstudio/orepack/network/
-  com/cccstudio/orepack/network/OrePackModVariables$1.class
-  com/cccstudio/orepack/network/OrePackModVariables$EventBusVariableHandlers.class
-  com/cccstudio/orepack/network/OrePackModVariables$PlayerVariables.class
-  com/cccstudio/orepack/network/OrePackModVariables$PlayerVariablesProvider.class
-  com/cccstudio/orepack/network/OrePackModVariables$PlayerVariablesSyncMessage.class
-  com/cccstudio/orepack/network/OrePackModVariables.class
-  com/cccstudio/orepack/procedures/
-  com/cccstudio/orepack/procedures/ComboranprogdonProcedure.class
-  com/cccstudio/orepack/procedures/Corps_titan_prog_donProcedure.class
-  com/cccstudio/orepack/procedures/Defi_final_donProcedure.class
-  com/cccstudio/orepack/procedures/TitaniumarmortickProcedure.class
   data/
   data/minecraft/
   data/minecraft/tags/
@@ -456,105 +358,109 @@ Writing Output: C:\Users\client1\MCreatorWorkspaces\ore_pack\build\reobfJar\outp
   data/minecraft/tags/items/swords.json
   data/ore_pack/
   data/ore_pack/advancements/
-  data/ore_pack/advancements/blocmanganeseprog.json
-  data/ore_pack/advancements/boulerepprog.json
-  data/ore_pack/advancements/combattantorange.json
+  data/ore_pack/advancements/factory_master.json
+  data/ore_pack/advancements/jeweller.json
   data/ore_pack/advancements/mineuragueri.json
-  data/ore_pack/advancements/montreargentprog.json
+  data/ore_pack/advancements/orange_fighter.json
   data/ore_pack/advancements/plastrontitaniumprog.json
+  data/ore_pack/advancements/reparator.json
+  data/ore_pack/advancements/seasoned_miner.json
+  data/ore_pack/advancements/titan_body.json
   data/ore_pack/forge/
   data/ore_pack/forge/biome_modifier/
-  data/ore_pack/forge/biome_modifier/argent_biome_modifier.json
-  data/ore_pack/forge/biome_modifier/bronze_biome_modifier.json
-  data/ore_pack/forge/biome_modifier/manganese_biome_modifier.json
-  data/ore_pack/forge/biome_modifier/nickel_biome_modifier.json
-  data/ore_pack/forge/biome_modifier/titanium_biome_modifier.json
+  data/ore_pack/forge/biome_modifier/bronze_ore_biome_modifier.json
+  data/ore_pack/forge/biome_modifier/manganese_ore_biome_modifier.json
+  data/ore_pack/forge/biome_modifier/nickel_ore_biome_modifier.json
+  data/ore_pack/forge/biome_modifier/silver_ore_biome_modifier.json
+  data/ore_pack/forge/biome_modifier/titanium_ore_biome_modifier.json
   data/ore_pack/loot_tables/
   data/ore_pack/loot_tables/blocks/
-  data/ore_pack/loot_tables/blocks/argent.json
-  data/ore_pack/loot_tables/blocks/blocargent.json
-  data/ore_pack/loot_tables/blocks/blocbronze.json
-  data/ore_pack/loot_tables/blocks/blocmanganese.json
-  data/ore_pack/loot_tables/blocks/blocnickel.json
-  data/ore_pack/loot_tables/blocks/bloctitanium.json
-  data/ore_pack/loot_tables/blocks/bronze.json
-  data/ore_pack/loot_tables/blocks/dalleargent.json
-  data/ore_pack/loot_tables/blocks/dallebronze.json
-  data/ore_pack/loot_tables/blocks/dallemanganese.json
-  data/ore_pack/loot_tables/blocks/dallenickel.json
+  data/ore_pack/loot_tables/blocks/bronze_block.json
+  data/ore_pack/loot_tables/blocks/bronze_ore.json
+  data/ore_pack/loot_tables/blocks/bronze_slab.json
+  data/ore_pack/loot_tables/blocks/bronze_stairs.json
   data/ore_pack/loot_tables/blocks/dalletitanium.json
-  data/ore_pack/loot_tables/blocks/escalierargent.json
-  data/ore_pack/loot_tables/blocks/escalierbronze.json
-  data/ore_pack/loot_tables/blocks/escaliermanganese.json
-  data/ore_pack/loot_tables/blocks/escaliernickel.json
   data/ore_pack/loot_tables/blocks/escaliertitanium.json
-  data/ore_pack/loot_tables/blocks/manganese.json
-  data/ore_pack/loot_tables/blocks/nickel.json
-  data/ore_pack/loot_tables/blocks/titanium.json
+  data/ore_pack/loot_tables/blocks/manganese_block.json
+  data/ore_pack/loot_tables/blocks/manganese_ore.json
+  data/ore_pack/loot_tables/blocks/manganese_slab.json
+  data/ore_pack/loot_tables/blocks/manganese_stairs.json
+  data/ore_pack/loot_tables/blocks/nickel_block.json
+  data/ore_pack/loot_tables/blocks/nickel_ore.json
+  data/ore_pack/loot_tables/blocks/nickel_slab.json
+  data/ore_pack/loot_tables/blocks/nickel_stairs.json
+  data/ore_pack/loot_tables/blocks/silver_block.json
+  data/ore_pack/loot_tables/blocks/silver_ore.json
+  data/ore_pack/loot_tables/blocks/silver_slab.json
+  data/ore_pack/loot_tables/blocks/silver_stairs.json
+  data/ore_pack/loot_tables/blocks/titanium_block.json
+  data/ore_pack/loot_tables/blocks/titanium_ore.json
+  data/ore_pack/loot_tables/blocks/titanium_slab.json
+  data/ore_pack/loot_tables/blocks/titanium_stairs.json
   data/ore_pack/recipes/
-  data/ore_pack/recipes/blocargentr.json
-  data/ore_pack/recipes/blocmanganesefab.json
-  data/ore_pack/recipes/blocnickelr.json
-  data/ore_pack/recipes/bloctitan.json
-  data/ore_pack/recipes/bottetitanr.json
-  data/ore_pack/recipes/boulerepr.json
-  data/ore_pack/recipes/casquetitanr.json
-  data/ore_pack/recipes/cbb.json
-  data/ore_pack/recipes/cmb.json
-  data/ore_pack/recipes/cnb.json
-  data/ore_pack/recipes/csb.json
-  data/ore_pack/recipes/ctb.json
-  data/ore_pack/recipes/cuissonargent.json
-  data/ore_pack/recipes/cuissonbronze.json
-  data/ore_pack/recipes/cuissonmanganese.json
-  data/ore_pack/recipes/cuissonnickel.json
-  data/ore_pack/recipes/cuissontitanium.json
-  data/ore_pack/recipes/dlargr.json
-  data/ore_pack/recipes/dlbrr.json
-  data/ore_pack/recipes/dlmangr.json
-  data/ore_pack/recipes/dlncr.json
-  data/ore_pack/recipes/dltitanr.json
-  data/ore_pack/recipes/ebr.json
+  data/ore_pack/recipes/bronze_blasting.json
+  data/ore_pack/recipes/bronze_pickaxe_craft.json
+  data/ore_pack/recipes/bronze_shovel_craft.json
+  data/ore_pack/recipes/bronze_slab_craft.json
+  data/ore_pack/recipes/bronze_smelting.json
+  data/ore_pack/recipes/bronze_stairs_craft.json
+  data/ore_pack/recipes/bronze_sword_craft.json
   data/ore_pack/recipes/ecr.json
-  data/ore_pack/recipes/enr.json
   data/ore_pack/recipes/eplr.json
-  data/ore_pack/recipes/escargr.json
-  data/ore_pack/recipes/escbrr.json
-  data/ore_pack/recipes/escmangr.json
-  data/ore_pack/recipes/escnickr.json
-  data/ore_pack/recipes/esctitanr.json
-  data/ore_pack/recipes/etr.json
   data/ore_pack/recipes/har.json
   data/ore_pack/recipes/hcr.json
   data/ore_pack/recipes/hlr.json
-  data/ore_pack/recipes/hnr.json
-  data/ore_pack/recipes/honr.json
-  data/ore_pack/recipes/htr.json
-  data/ore_pack/recipes/montreargentr.json
-  data/ore_pack/recipes/pantalontitanr.json
-  data/ore_pack/recipes/pbr.json
+  data/ore_pack/recipes/manganese_blasting.json
+  data/ore_pack/recipes/manganese_block_craft.json
+  data/ore_pack/recipes/manganese_slab_craft.json
+  data/ore_pack/recipes/manganese_smelting.json
+  data/ore_pack/recipes/manganese_stairs_craft.json
+  data/ore_pack/recipes/nickel_axe_craft.json
+  data/ore_pack/recipes/nickel_blasting.json
+  data/ore_pack/recipes/nickel_block_craft.json
+  data/ore_pack/recipes/nickel_hoe_craft.json
+  data/ore_pack/recipes/nickel_pickaxe_craft.json
+  data/ore_pack/recipes/nickel_shovel_craft.json
+  data/ore_pack/recipes/nickel_slab_craft.json
+  data/ore_pack/recipes/nickel_smelting.json
+  data/ore_pack/recipes/nickel_stairs_craft.json
+  data/ore_pack/recipes/nickel_sword_craft.json
   data/ore_pack/recipes/pcr.json
-  data/ore_pack/recipes/pebr.json
   data/ore_pack/recipes/pecr.json
   data/ore_pack/recipes/pelr.json
-  data/ore_pack/recipes/penr.json
-  data/ore_pack/recipes/petr.json
   data/ore_pack/recipes/pilapisr.json
-  data/ore_pack/recipes/plastrontitanr.json
-  data/ore_pack/recipes/pnr.json
-  data/ore_pack/recipes/ptr.json
+  data/ore_pack/recipes/reparation_ball_craft.json
+  data/ore_pack/recipes/silver_blasting.json
+  data/ore_pack/recipes/silver_block_craft.json
+  data/ore_pack/recipes/silver_clock_craft.json
+  data/ore_pack/recipes/silver_slab_craft.json
+  data/ore_pack/recipes/silver_smelting.json
+  data/ore_pack/recipes/silver_stairs_craft.json
+  data/ore_pack/recipes/titanium_axe_craft.json
+  data/ore_pack/recipes/titanium_blasting.json
+  data/ore_pack/recipes/titanium_block_craft.json
+  data/ore_pack/recipes/titanium_boots.json
+  data/ore_pack/recipes/titanium_chestplate.json
+  data/ore_pack/recipes/titanium_helmet.json
+  data/ore_pack/recipes/titanium_leggings.json
+  data/ore_pack/recipes/titanium_pickaxe_craft.json
+  data/ore_pack/recipes/titanium_shovel_craft.json
+  data/ore_pack/recipes/titanium_slab_craft.json
+  data/ore_pack/recipes/titanium_smelting.json
+  data/ore_pack/recipes/titanium_stairs_craft.json
+  data/ore_pack/recipes/titanium_sword_craft.json
   data/ore_pack/worldgen/
   data/ore_pack/worldgen/configured_feature/
-  data/ore_pack/worldgen/configured_feature/argent.json
-  data/ore_pack/worldgen/configured_feature/bronze.json
-  data/ore_pack/worldgen/configured_feature/manganese.json
-  data/ore_pack/worldgen/configured_feature/nickel.json
-  data/ore_pack/worldgen/configured_feature/titanium.json
+  data/ore_pack/worldgen/configured_feature/bronze_ore.json
+  data/ore_pack/worldgen/configured_feature/manganese_ore.json
+  data/ore_pack/worldgen/configured_feature/nickel_ore.json
+  data/ore_pack/worldgen/configured_feature/silver_ore.json
+  data/ore_pack/worldgen/configured_feature/titanium_ore.json
   data/ore_pack/worldgen/placed_feature/
-  data/ore_pack/worldgen/placed_feature/argent.json
-  data/ore_pack/worldgen/placed_feature/bronze.json
-  data/ore_pack/worldgen/placed_feature/manganese.json
-  data/ore_pack/worldgen/placed_feature/nickel.json
-  data/ore_pack/worldgen/placed_feature/titanium.json
+  data/ore_pack/worldgen/placed_feature/bronze_ore.json
+  data/ore_pack/worldgen/placed_feature/manganese_ore.json
+  data/ore_pack/worldgen/placed_feature/nickel_ore.json
+  data/ore_pack/worldgen/placed_feature/silver_ore.json
+  data/ore_pack/worldgen/placed_feature/titanium_ore.json
   logo.png
   pack.mcmeta

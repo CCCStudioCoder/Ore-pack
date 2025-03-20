@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "ore_pack:block/titanium_block",
+    "bottom": "ore_pack:block/titanium_block",
+    "top": "ore_pack:block/titanium_block",
+    "side": "ore_pack:block/titanium_block"
+  },
+  "render_type": "solid"
+}

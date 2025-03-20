@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "ore_pack:epeetitanium",
-    "ore_pack:epeebronze",
-    "ore_pack:epeecuivre",
-    "ore_pack:epeenickel",
-    "ore_pack:epeelapis"
+    "ore_pack:lapis_lazuli_sword",
+    "ore_pack:copper_sword",
+    "ore_pack:titanium_sword",
+    "ore_pack:bronze_sword",
+    "ore_pack:nickel_sword"
   ]
 }

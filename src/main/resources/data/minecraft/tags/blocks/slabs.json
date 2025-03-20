@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "ore_pack:dalletitanium",
-    "ore_pack:dalleargent",
-    "ore_pack:dallebronze",
-    "ore_pack:dallenickel",
-    "ore_pack:dallemanganese"
+    "ore_pack:titanium_slab",
+    "ore_pack:silver_slab",
+    "ore_pack:bronze_slab",
+    "ore_pack:nickel_slab",
+    "ore_pack:manganese_slab"
   ]
 }

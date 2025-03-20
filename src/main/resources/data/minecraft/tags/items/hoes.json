@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "ore_pack:houxnickel",
-    "ore_pack:houxlapis"
+    "ore_pack:lapis_lazuli_hoe",
+    "ore_pack:nickel_hoe"
   ]
 }

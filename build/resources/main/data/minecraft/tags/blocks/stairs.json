@@ -1,10 +1,11 @@
 {
   "replace": false,
   "values": [
-    "ore_pack:escaliertitanium",
-    "ore_pack:escalierargent",
-    "ore_pack:escalierbronze",
-    "ore_pack:escaliernickel",
-    "ore_pack:escaliermanganese"
+    "ore_pack:titanium_stairs",
+    "ore_pack:silver_stairs",
+    "ore_pack:bronze_stairs",
+    "ore_pack:nickel_stairs",
+    "ore_pack:manganese_stairs",
+    "ore_pack:escaliertitanium"
   ]
 }

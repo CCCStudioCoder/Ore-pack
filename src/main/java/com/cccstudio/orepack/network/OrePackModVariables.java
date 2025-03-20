@@ -66,7 +66,7 @@ public class OrePackModVariables {
 			event.getOriginal().revive();
 			PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
-			clone.Titanium_trouves = original.Titanium_trouves;
+			clone.FoundedTitanium = original.FoundedTitanium;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -103,7 +103,7 @@ public class OrePackModVariables {
 	}
 
 	public static class PlayerVariables {
-		public double Titanium_trouves = 0;
+		public double FoundedTitanium = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -112,13 +112,13 @@ public class OrePackModVariables {
 
 		public Tag writeNBT() {
 			CompoundTag nbt = new CompoundTag();
-			nbt.putDouble("Titanium_trouves", Titanium_trouves);
+			nbt.putDouble("FoundedTitanium", FoundedTitanium);
 			return nbt;
 		}
 
 		public void readNBT(Tag tag) {
 			CompoundTag nbt = (CompoundTag) tag;
-			Titanium_trouves = nbt.getDouble("Titanium_trouves");
+			FoundedTitanium = nbt.getDouble("FoundedTitanium");
 		}
 	}
 
@@ -143,7 +143,7 @@ public class OrePackModVariables {
 			context.enqueueWork(() -> {
 				if (!context.getDirection().getReceptionSide().isServer()) {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
-					variables.Titanium_trouves = message.data.Titanium_trouves;
+					variables.FoundedTitanium = message.data.FoundedTitanium;
 				}
 			});
 			context.setPacketHandled(true);

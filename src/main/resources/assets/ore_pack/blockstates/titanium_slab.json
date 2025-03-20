@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ore_pack:block/titanium_slab"
+    },
+    "type=top": {
+      "model": "ore_pack:block/titanium_slab_top"
+    },
+    "type=double": {
+      "model": "ore_pack:block/titanium_slab_full"
+    }
+  }
+}

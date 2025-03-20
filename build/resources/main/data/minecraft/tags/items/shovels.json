@@ -1,10 +1,11 @@
 {
   "replace": false,
   "values": [
+    "ore_pack:titanium_shovel",
+    "ore_pack:bronze_shovel",
+    "ore_pack:nickel_shovel",
     "ore_pack:pelletitanium",
-    "ore_pack:pellebronze",
     "ore_pack:pellecuivre",
-    "ore_pack:pellenickel",
     "ore_pack:pellelapis"
   ]
 }

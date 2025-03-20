@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "ore_pack:hachetitanium",
-    "ore_pack:hachecuivre",
-    "ore_pack:hachenickel",
-    "ore_pack:hachelapis"
+    "ore_pack:lapis_lazuli_axe",
+    "ore_pack:copper_axe",
+    "ore_pack:titanium_axe",
+    "ore_pack:nickel_axe"
   ]
 }

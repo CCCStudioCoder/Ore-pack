@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "ore_pack:manganese_ingot"
+    }
+  },
+  "result": {
+    "item": "ore_pack:manganese_slab",
+    "count": 6
+  }
+}

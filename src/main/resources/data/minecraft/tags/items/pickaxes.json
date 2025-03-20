@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "ore_pack:piochetitanium",
-    "ore_pack:piochebronze",
-    "ore_pack:piochecuivre",
-    "ore_pack:piochenickel",
-    "ore_pack:piochelapis"
+    "ore_pack:lapis_lazuli_pickaxe",
+    "ore_pack:copper_pickaxe",
+    "ore_pack:titanium_pickaxe",
+    "ore_pack:bronze_pickaxe",
+    "ore_pack:nickel_pickaxe"
   ]
 }
