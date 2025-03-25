@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "ore_pack:bronze_sword"
+    },
+    "title": {
+      "translate": "advancements.orange_fighter.title"
+    },
+    "description": {
+      "translate": "advancements.orange_fighter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "orange_fighter_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 4
+  },
+  "parent": "ore_pack:reparator"
+}

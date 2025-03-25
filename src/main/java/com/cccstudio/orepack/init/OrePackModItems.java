@@ -4,13 +4,15 @@
  */
 package com.cccstudio.orepack.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
+
+import java.util.function.Function;
 
 import com.cccstudio.orepack.item.TitaniumSwordItem;
 import com.cccstudio.orepack.item.TitaniumShovelItem;
@@ -48,67 +50,71 @@ import com.cccstudio.orepack.item.BronzeIngotItem;
 import com.cccstudio.orepack.OrePackMod;
 
 public class OrePackModItems {
-	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, OrePackMod.MODID);
-	public static final RegistryObject<Item> RAW_MANGANESE = REGISTRY.register("raw_manganese", () -> new RawManganeseItem());
-	public static final RegistryObject<Item> MANGANESE_INGOT = REGISTRY.register("manganese_ingot", () -> new ManganeseIngotItem());
-	public static final RegistryObject<Item> MANGANESE_ORE = block(OrePackModBlocks.MANGANESE_ORE);
-	public static final RegistryObject<Item> MANGANESE_BLOCK = block(OrePackModBlocks.MANGANESE_BLOCK);
-	public static final RegistryObject<Item> MANGANESE_STAIRS = block(OrePackModBlocks.MANGANESE_STAIRS);
-	public static final RegistryObject<Item> MANGANESE_SLAB = block(OrePackModBlocks.MANGANESE_SLAB);
-	public static final RegistryObject<Item> RAW_NICKEL = REGISTRY.register("raw_nickel", () -> new RawNickelItem());
-	public static final RegistryObject<Item> NICKEL_ORE = block(OrePackModBlocks.NICKEL_ORE);
-	public static final RegistryObject<Item> NICKEL = REGISTRY.register("nickel", () -> new NickelItem());
-	public static final RegistryObject<Item> NICKEL_BLOCK = block(OrePackModBlocks.NICKEL_BLOCK);
-	public static final RegistryObject<Item> NICKEL_STAIRS = block(OrePackModBlocks.NICKEL_STAIRS);
-	public static final RegistryObject<Item> NICKEL_SLAB = block(OrePackModBlocks.NICKEL_SLAB);
-	public static final RegistryObject<Item> NICKEL_SWORD = REGISTRY.register("nickel_sword", () -> new NickelSwordItem());
-	public static final RegistryObject<Item> NICKEL_PICKAXE = REGISTRY.register("nickel_pickaxe", () -> new NickelPickaxeItem());
-	public static final RegistryObject<Item> NICKEL_AXE = REGISTRY.register("nickel_axe", () -> new NickelAxeItem());
-	public static final RegistryObject<Item> NICKEL_HOE = REGISTRY.register("nickel_hoe", () -> new NickelHoeItem());
-	public static final RegistryObject<Item> NICKEL_SHOVEL = REGISTRY.register("nickel_shovel", () -> new NickelShovelItem());
-	public static final RegistryObject<Item> REPARATION_BALL = REGISTRY.register("reparation_ball", () -> new ReparationBallItem());
-	public static final RegistryObject<Item> RAW_BRONZE = REGISTRY.register("raw_bronze", () -> new RawBronzeItem());
-	public static final RegistryObject<Item> BRONZE_ORE = block(OrePackModBlocks.BRONZE_ORE);
-	public static final RegistryObject<Item> BRONZE_BLOCK = block(OrePackModBlocks.BRONZE_BLOCK);
-	public static final RegistryObject<Item> BRONZE_INGOT = REGISTRY.register("bronze_ingot", () -> new BronzeIngotItem());
-	public static final RegistryObject<Item> BRONZE_STAIRS = block(OrePackModBlocks.BRONZE_STAIRS);
-	public static final RegistryObject<Item> BRONZE_SLAB = block(OrePackModBlocks.BRONZE_SLAB);
-	public static final RegistryObject<Item> BRONZE_SWORD = REGISTRY.register("bronze_sword", () -> new BronzeSwordItem());
-	public static final RegistryObject<Item> BRONZE_PICKAXE = REGISTRY.register("bronze_pickaxe", () -> new BronzePickaxeItem());
-	public static final RegistryObject<Item> BRONZE_SHOVEL = REGISTRY.register("bronze_shovel", () -> new BronzeShovelItem());
-	public static final RegistryObject<Item> RAW_SILVER = REGISTRY.register("raw_silver", () -> new RawSilverItem());
-	public static final RegistryObject<Item> SILVER_ORE = block(OrePackModBlocks.SILVER_ORE);
-	public static final RegistryObject<Item> SILVER_NUGGET = REGISTRY.register("silver_nugget", () -> new SilverNuggetItem());
-	public static final RegistryObject<Item> SILVER_STAIRS = block(OrePackModBlocks.SILVER_STAIRS);
-	public static final RegistryObject<Item> SILVER_SLAB = block(OrePackModBlocks.SILVER_SLAB);
-	public static final RegistryObject<Item> SILVER_BLOCK = block(OrePackModBlocks.SILVER_BLOCK);
-	public static final RegistryObject<Item> RAW_TITANIUM = REGISTRY.register("raw_titanium", () -> new RawTitaniumItem());
-	public static final RegistryObject<Item> TITANIUM_NUGGET = REGISTRY.register("titanium_nugget", () -> new TitaniumNuggetItem());
-	public static final RegistryObject<Item> TITANIUM_ORE = block(OrePackModBlocks.TITANIUM_ORE);
-	public static final RegistryObject<Item> TITANIUM_BLOCK = block(OrePackModBlocks.TITANIUM_BLOCK);
-	public static final RegistryObject<Item> TITANIUM_HELMET = REGISTRY.register("titanium_helmet", () -> new TitaniumItem.Helmet());
-	public static final RegistryObject<Item> TITANIUM_CHESTPLATE = REGISTRY.register("titanium_chestplate", () -> new TitaniumItem.Chestplate());
-	public static final RegistryObject<Item> TITANIUM_LEGGINGS = REGISTRY.register("titanium_leggings", () -> new TitaniumItem.Leggings());
-	public static final RegistryObject<Item> TITANIUM_BOOTS = REGISTRY.register("titanium_boots", () -> new TitaniumItem.Boots());
-	public static final RegistryObject<Item> TITANIUM_STAIRS = block(OrePackModBlocks.TITANIUM_STAIRS);
-	public static final RegistryObject<Item> TITANIUM_SLAB = block(OrePackModBlocks.TITANIUM_SLAB);
-	public static final RegistryObject<Item> TITANIUM_SWORD = REGISTRY.register("titanium_sword", () -> new TitaniumSwordItem());
-	public static final RegistryObject<Item> TITANIUM_PICKAXE = REGISTRY.register("titanium_pickaxe", () -> new TitaniumPickaxeItem());
-	public static final RegistryObject<Item> TITANIUM_AXE = REGISTRY.register("titanium_axe", () -> new TitaniumAxeItem());
-	public static final RegistryObject<Item> TITANIUM_SHOVEL = REGISTRY.register("titanium_shovel", () -> new TitaniumShovelItem());
-	public static final RegistryObject<Item> COPPER_SWORD = REGISTRY.register("copper_sword", () -> new CopperSwordItem());
-	public static final RegistryObject<Item> COPPER_PICKAXE = REGISTRY.register("copper_pickaxe", () -> new CopperPickaxeItem());
-	public static final RegistryObject<Item> COPPER_AXE = REGISTRY.register("copper_axe", () -> new CopperAxeItem());
-	public static final RegistryObject<Item> COPPER_SHOVEL = REGISTRY.register("copper_shovel", () -> new CopperShovelItem());
-	public static final RegistryObject<Item> LAPIS_LAZULI_SWORD = REGISTRY.register("lapis_lazuli_sword", () -> new LapisLazuliSwordItem());
-	public static final RegistryObject<Item> LAPIS_LAZULI_PICKAXE = REGISTRY.register("lapis_lazuli_pickaxe", () -> new LapisLazuliPickaxeItem());
-	public static final RegistryObject<Item> LAPIS_LAZULI_AXE = REGISTRY.register("lapis_lazuli_axe", () -> new LapisLazuliAxeItem());
-	public static final RegistryObject<Item> LAPIS_LAZULI_HOE = REGISTRY.register("lapis_lazuli_hoe", () -> new LapisLazuliHoeItem());
-	public static final RegistryObject<Item> LAPIS_LAZULI_SHOVEL = REGISTRY.register("lapis_lazuli_shovel", () -> new LapisLazuliShovelItem());
+	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(OrePackMod.MODID);
+	public static final DeferredItem<Item> RAW_MANGANESE = register("raw_manganese", RawManganeseItem::new);
+	public static final DeferredItem<Item> MANGANESE_INGOT = register("manganese_ingot", ManganeseIngotItem::new);
+	public static final DeferredItem<Item> MANGANESE_ORE = block(OrePackModBlocks.MANGANESE_ORE);
+	public static final DeferredItem<Item> MANGANESE_BLOCK = block(OrePackModBlocks.MANGANESE_BLOCK);
+	public static final DeferredItem<Item> MANGANESE_STAIRS = block(OrePackModBlocks.MANGANESE_STAIRS);
+	public static final DeferredItem<Item> MANGANESE_SLAB = block(OrePackModBlocks.MANGANESE_SLAB);
+	public static final DeferredItem<Item> RAW_NICKEL = register("raw_nickel", RawNickelItem::new);
+	public static final DeferredItem<Item> NICKEL_ORE = block(OrePackModBlocks.NICKEL_ORE);
+	public static final DeferredItem<Item> NICKEL = register("nickel", NickelItem::new);
+	public static final DeferredItem<Item> NICKEL_BLOCK = block(OrePackModBlocks.NICKEL_BLOCK);
+	public static final DeferredItem<Item> NICKEL_STAIRS = block(OrePackModBlocks.NICKEL_STAIRS);
+	public static final DeferredItem<Item> NICKEL_SLAB = block(OrePackModBlocks.NICKEL_SLAB);
+	public static final DeferredItem<Item> NICKEL_SWORD = register("nickel_sword", NickelSwordItem::new);
+	public static final DeferredItem<Item> NICKEL_PICKAXE = register("nickel_pickaxe", NickelPickaxeItem::new);
+	public static final DeferredItem<Item> NICKEL_AXE = register("nickel_axe", NickelAxeItem::new);
+	public static final DeferredItem<Item> NICKEL_HOE = register("nickel_hoe", NickelHoeItem::new);
+	public static final DeferredItem<Item> NICKEL_SHOVEL = register("nickel_shovel", NickelShovelItem::new);
+	public static final DeferredItem<Item> REPARATION_BALL = register("reparation_ball", ReparationBallItem::new);
+	public static final DeferredItem<Item> RAW_BRONZE = register("raw_bronze", RawBronzeItem::new);
+	public static final DeferredItem<Item> BRONZE_ORE = block(OrePackModBlocks.BRONZE_ORE);
+	public static final DeferredItem<Item> BRONZE_BLOCK = block(OrePackModBlocks.BRONZE_BLOCK);
+	public static final DeferredItem<Item> BRONZE_INGOT = register("bronze_ingot", BronzeIngotItem::new);
+	public static final DeferredItem<Item> BRONZE_STAIRS = block(OrePackModBlocks.BRONZE_STAIRS);
+	public static final DeferredItem<Item> BRONZE_SLAB = block(OrePackModBlocks.BRONZE_SLAB);
+	public static final DeferredItem<Item> BRONZE_SWORD = register("bronze_sword", BronzeSwordItem::new);
+	public static final DeferredItem<Item> BRONZE_PICKAXE = register("bronze_pickaxe", BronzePickaxeItem::new);
+	public static final DeferredItem<Item> BRONZE_SHOVEL = register("bronze_shovel", BronzeShovelItem::new);
+	public static final DeferredItem<Item> RAW_SILVER = register("raw_silver", RawSilverItem::new);
+	public static final DeferredItem<Item> SILVER_ORE = block(OrePackModBlocks.SILVER_ORE);
+	public static final DeferredItem<Item> SILVER_NUGGET = register("silver_nugget", SilverNuggetItem::new);
+	public static final DeferredItem<Item> SILVER_STAIRS = block(OrePackModBlocks.SILVER_STAIRS);
+	public static final DeferredItem<Item> SILVER_SLAB = block(OrePackModBlocks.SILVER_SLAB);
+	public static final DeferredItem<Item> SILVER_BLOCK = block(OrePackModBlocks.SILVER_BLOCK);
+	public static final DeferredItem<Item> RAW_TITANIUM = register("raw_titanium", RawTitaniumItem::new);
+	public static final DeferredItem<Item> TITANIUM_NUGGET = register("titanium_nugget", TitaniumNuggetItem::new);
+	public static final DeferredItem<Item> TITANIUM_ORE = block(OrePackModBlocks.TITANIUM_ORE);
+	public static final DeferredItem<Item> TITANIUM_BLOCK = block(OrePackModBlocks.TITANIUM_BLOCK);
+	public static final DeferredItem<Item> TITANIUM_HELMET = register("titanium_helmet", TitaniumItem.Helmet::new);
+	public static final DeferredItem<Item> TITANIUM_CHESTPLATE = register("titanium_chestplate", TitaniumItem.Chestplate::new);
+	public static final DeferredItem<Item> TITANIUM_LEGGINGS = register("titanium_leggings", TitaniumItem.Leggings::new);
+	public static final DeferredItem<Item> TITANIUM_BOOTS = register("titanium_boots", TitaniumItem.Boots::new);
+	public static final DeferredItem<Item> TITANIUM_STAIRS = block(OrePackModBlocks.TITANIUM_STAIRS);
+	public static final DeferredItem<Item> TITANIUM_SLAB = block(OrePackModBlocks.TITANIUM_SLAB);
+	public static final DeferredItem<Item> TITANIUM_SWORD = register("titanium_sword", TitaniumSwordItem::new);
+	public static final DeferredItem<Item> TITANIUM_PICKAXE = register("titanium_pickaxe", TitaniumPickaxeItem::new);
+	public static final DeferredItem<Item> TITANIUM_AXE = register("titanium_axe", TitaniumAxeItem::new);
+	public static final DeferredItem<Item> TITANIUM_SHOVEL = register("titanium_shovel", TitaniumShovelItem::new);
+	public static final DeferredItem<Item> COPPER_SWORD = register("copper_sword", CopperSwordItem::new);
+	public static final DeferredItem<Item> COPPER_PICKAXE = register("copper_pickaxe", CopperPickaxeItem::new);
+	public static final DeferredItem<Item> COPPER_AXE = register("copper_axe", CopperAxeItem::new);
+	public static final DeferredItem<Item> COPPER_SHOVEL = register("copper_shovel", CopperShovelItem::new);
+	public static final DeferredItem<Item> LAPIS_LAZULI_SWORD = register("lapis_lazuli_sword", LapisLazuliSwordItem::new);
+	public static final DeferredItem<Item> LAPIS_LAZULI_PICKAXE = register("lapis_lazuli_pickaxe", LapisLazuliPickaxeItem::new);
+	public static final DeferredItem<Item> LAPIS_LAZULI_AXE = register("lapis_lazuli_axe", LapisLazuliAxeItem::new);
+	public static final DeferredItem<Item> LAPIS_LAZULI_HOE = register("lapis_lazuli_hoe", LapisLazuliHoeItem::new);
+	public static final DeferredItem<Item> LAPIS_LAZULI_SHOVEL = register("lapis_lazuli_shovel", LapisLazuliShovelItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
-	private static RegistryObject<Item> block(RegistryObject<Block> block) {
-		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	private static <I extends Item> DeferredItem<I> register(String name, Function<Item.Properties, ? extends I> supplier) {
+		return REGISTRY.registerItem(name, supplier, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
+		return REGISTRY.registerItem(block.getId().getPath(), properties -> new BlockItem(block.get(), properties), new Item.Properties());
 	}
 }

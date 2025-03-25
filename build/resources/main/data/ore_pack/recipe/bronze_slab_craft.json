@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "ore_pack:bronze_ingot"
+  },
+  "result": {
+    "id": "ore_pack:bronze_slab",
+    "count": 6
+  }
+}

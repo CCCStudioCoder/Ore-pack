@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 3,
+  "cookingtime": 250,
+  "ingredient": "ore_pack:raw_silver",
+  "result": {
+    "id": "ore_pack:silver_nugget"
+  }
+}

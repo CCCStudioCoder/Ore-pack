@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "experience": 1.5,
+  "cookingtime": 210,
+  "ingredient": "ore_pack:raw_nickel",
+  "result": {
+    "id": "ore_pack:nickel"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "ore_pack:titanium_nugget"
+  },
+  "result": {
+    "id": "ore_pack:titanium_chestplate",
+    "count": 1
+  }
+}

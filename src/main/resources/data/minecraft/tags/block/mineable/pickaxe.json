@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "ore_pack:titanium_ore",
+    "ore_pack:bronze_ore",
+    "ore_pack:nickel_ore",
+    "ore_pack:manganese_block",
+    "ore_pack:manganese_ore"
+  ]
+}

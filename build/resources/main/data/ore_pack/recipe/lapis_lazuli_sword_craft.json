@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "minecraft:lapis_lazuli",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "ore_pack:lapis_lazuli_sword",
+    "count": 1
+  }
+}

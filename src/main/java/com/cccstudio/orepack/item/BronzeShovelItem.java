@@ -1,40 +1,18 @@
 
 package com.cccstudio.orepack.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.ToolMaterial;
 import net.minecraft.world.item.ShovelItem;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-
-import com.cccstudio.orepack.init.OrePackModItems;
+import net.minecraft.tags.TagKey;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.registries.Registries;
 
 public class BronzeShovelItem extends ShovelItem {
-	public BronzeShovelItem() {
-		super(new Tier() {
-			public int getUses() {
-				return 150;
-			}
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_STONE_TOOL, 150, 4f, 0, 8, TagKey.create(Registries.ITEM, ResourceLocation.parse("ore_pack:bronze_shovel_repair_items")));
 
-			public float getSpeed() {
-				return 4f;
-			}
-
-			public float getAttackDamageBonus() {
-				return 3f;
-			}
-
-			public int getLevel() {
-				return 1;
-			}
-
-			public int getEnchantmentValue() {
-				return 8;
-			}
-
-			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(OrePackModItems.REPARATION_BALL.get()));
-			}
-		}, 1, -3f, new Item.Properties());
+	public BronzeShovelItem(Item.Properties properties) {
+		super(TOOL_MATERIAL, 4f, -3f, properties);
 	}
 }

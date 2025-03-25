@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "ore_pack:titanium_nugget"
+  },
+  "result": {
+    "id": "ore_pack:titanium_slab",
+    "count": 6
+  }
+}

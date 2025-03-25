@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": "ore_pack:manganese_ingot"
+  },
+  "result": {
+    "id": "ore_pack:manganese_stairs",
+    "count": 4
+  }
+}

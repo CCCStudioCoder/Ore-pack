@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": "ore_pack:titanium_nugget"
+  },
+  "result": {
+    "id": "ore_pack:titanium_stairs",
+    "count": 4
+  }
+}

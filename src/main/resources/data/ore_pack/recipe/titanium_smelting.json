@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "experience": 4,
+  "cookingtime": 240,
+  "ingredient": "ore_pack:raw_titanium",
+  "result": {
+    "id": "ore_pack:titanium_nugget"
+  }
+}

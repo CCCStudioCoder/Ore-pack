@@ -1,0 +1,1961 @@
+{
+  "mod_elements": [
+    {
+      "name": "RawManganese",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_manganese",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/models/item/raw_manganese.json",
+          "src/main/java/com/cccstudio/orepack/item/RawManganeseItem.java"
+        ]
+      },
+      "path": "~/Manganese"
+    },
+    {
+      "name": "ManganeseIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manganese_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/item/ManganeseIngotItem.java",
+          "src/main/resources/assets/ore_pack/models/item/manganese_ingot.json"
+        ]
+      },
+      "path": "~/Manganese"
+    },
+    {
+      "name": "ManganeseOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manganese_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/worldgen/configured_feature/manganese_ore.json",
+          "src/main/resources/assets/ore_pack/models/item/manganese_ore.json",
+          "src/main/resources/data/ore_pack/forge/biome_modifier/manganese_ore_biome_modifier.json",
+          "src/main/resources/assets/ore_pack/blockstates/manganese_ore.json",
+          "src/main/java/com/cccstudio/orepack/block/ManganeseOreBlock.java",
+          "src/main/resources/assets/ore_pack/models/block/manganese_ore.json",
+          "src/main/resources/data/ore_pack/loot_tables/blocks/manganese_ore.json",
+          "src/main/resources/data/ore_pack/worldgen/placed_feature/manganese_ore.json"
+        ]
+      },
+      "path": "~/Manganese"
+    },
+    {
+      "name": "ManganeseBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manganese_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/blockstates/manganese_block.json",
+          "src/main/resources/assets/ore_pack/models/item/manganese_block.json",
+          "src/main/resources/assets/ore_pack/models/block/manganese_block.json",
+          "src/main/java/com/cccstudio/orepack/block/ManganeseBlockBlock.java",
+          "src/main/resources/data/ore_pack/loot_tables/blocks/manganese_block.json"
+        ]
+      },
+      "path": "~/Manganese"
+    },
+    {
+      "name": "ManganeseStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manganese_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/loot_tables/blocks/manganese_stairs.json",
+          "src/main/java/com/cccstudio/orepack/block/ManganeseStairsBlock.java",
+          "src/main/resources/assets/ore_pack/models/block/manganese_stairs_outer.json",
+          "src/main/resources/assets/ore_pack/models/block/manganese_stairs.json",
+          "src/main/resources/assets/ore_pack/models/item/manganese_stairs.json",
+          "src/main/resources/assets/ore_pack/blockstates/manganese_stairs.json",
+          "src/main/resources/assets/ore_pack/models/block/manganese_stairs_inner.json"
+        ]
+      },
+      "path": "~/Manganese"
+    },
+    {
+      "name": "ManganeseSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manganese_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/block/ManganeseSlabBlock.java",
+          "src/main/resources/assets/ore_pack/models/block/manganese_slab_full.json",
+          "src/main/resources/assets/ore_pack/models/item/manganese_slab.json",
+          "src/main/resources/assets/ore_pack/blockstates/manganese_slab.json",
+          "src/main/resources/assets/ore_pack/models/block/manganese_slab_top.json",
+          "src/main/resources/data/ore_pack/loot_tables/blocks/manganese_slab.json",
+          "src/main/resources/assets/ore_pack/models/block/manganese_slab.json"
+        ]
+      },
+      "path": "~/Manganese"
+    },
+    {
+      "name": "ManganeseSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manganese_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/manganese_smelting.json"
+        ]
+      },
+      "path": "~/Manganese"
+    },
+    {
+      "name": "ManganeseBlockCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manganese_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/manganese_block_craft.json"
+        ]
+      },
+      "path": "~/Manganese"
+    },
+    {
+      "name": "ManganeseStairsCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manganese_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/manganese_stairs_craft.json"
+        ]
+      },
+      "path": "~/Manganese"
+    },
+    {
+      "name": "ManganeseSlabCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manganese_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/manganese_slab_craft.json"
+        ]
+      },
+      "path": "~/Manganese"
+    },
+    {
+      "name": "ManganeseBlasting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manganese_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/manganese_blasting.json"
+        ]
+      },
+      "path": "~/Manganese"
+    },
+    {
+      "name": "FactoryMaster",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "factory_master",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/advancements/factory_master.json"
+        ]
+      },
+      "path": "~/Manganese"
+    },
+    {
+      "name": "RawNickel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_nickel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/models/item/raw_nickel.json",
+          "src/main/java/com/cccstudio/orepack/item/RawNickelItem.java"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "NickelOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/worldgen/configured_feature/nickel_ore.json",
+          "src/main/resources/assets/ore_pack/models/block/nickel_ore.json",
+          "src/main/resources/data/ore_pack/worldgen/placed_feature/nickel_ore.json",
+          "src/main/resources/assets/ore_pack/models/item/nickel_ore.json",
+          "src/main/resources/data/ore_pack/loot_tables/blocks/nickel_ore.json",
+          "src/main/java/com/cccstudio/orepack/block/NickelOreBlock.java",
+          "src/main/resources/assets/ore_pack/blockstates/nickel_ore.json",
+          "src/main/resources/data/ore_pack/forge/biome_modifier/nickel_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "Nickel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/item/NickelItem.java",
+          "src/main/resources/assets/ore_pack/models/item/nickel.json"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "NickelSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/nickel_smelting.json"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "NickelBlasting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/nickel_blasting.json"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "NickelBlockCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/nickel_block_craft.json"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "NickelBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/models/block/nickel_block.json",
+          "src/main/resources/data/ore_pack/loot_tables/blocks/nickel_block.json",
+          "src/main/resources/assets/ore_pack/blockstates/nickel_block.json",
+          "src/main/java/com/cccstudio/orepack/block/NickelBlockBlock.java",
+          "src/main/resources/assets/ore_pack/models/item/nickel_block.json"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "NickelStairsCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/nickel_stairs_craft.json"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "NickelStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/models/block/nickel_stairs_inner.json",
+          "src/main/resources/assets/ore_pack/models/block/nickel_stairs.json",
+          "src/main/java/com/cccstudio/orepack/block/NickelStairsBlock.java",
+          "src/main/resources/data/ore_pack/loot_tables/blocks/nickel_stairs.json",
+          "src/main/resources/assets/ore_pack/blockstates/nickel_stairs.json",
+          "src/main/resources/assets/ore_pack/models/item/nickel_stairs.json",
+          "src/main/resources/assets/ore_pack/models/block/nickel_stairs_outer.json"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "NickelSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/blockstates/nickel_slab.json",
+          "src/main/java/com/cccstudio/orepack/block/NickelSlabBlock.java",
+          "src/main/resources/assets/ore_pack/models/block/nickel_slab.json",
+          "src/main/resources/assets/ore_pack/models/block/nickel_slab_full.json",
+          "src/main/resources/assets/ore_pack/models/block/nickel_slab_top.json",
+          "src/main/resources/data/ore_pack/loot_tables/blocks/nickel_slab.json",
+          "src/main/resources/assets/ore_pack/models/item/nickel_slab.json"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "NickelSlabCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/nickel_slab_craft.json"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "NickelSwordCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_sword_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/nickel_sword_craft.json"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "NickelSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/models/item/nickel_sword.json",
+          "src/main/java/com/cccstudio/orepack/item/NickelSwordItem.java"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "NickelPickaxeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_pickaxe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/nickel_pickaxe_craft.json"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "NickelPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/item/NickelPickaxeItem.java",
+          "src/main/resources/assets/ore_pack/models/item/nickel_pickaxe.json"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "NickelAxeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_axe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/nickel_axe_craft.json"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "NickelAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/item/NickelAxeItem.java",
+          "src/main/resources/assets/ore_pack/models/item/nickel_axe.json"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "NickelHoeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_hoe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/nickel_hoe_craft.json"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "NickelHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/models/item/nickel_hoe.json",
+          "src/main/java/com/cccstudio/orepack/item/NickelHoeItem.java"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "NickelShovelCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_shovel_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/nickel_shovel_craft.json"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "NickelShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickel_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/item/NickelShovelItem.java",
+          "src/main/resources/assets/ore_pack/models/item/nickel_shovel.json"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "ReparationBall",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reparation_ball",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/models/item/reparation_ball.json",
+          "src/main/java/com/cccstudio/orepack/item/ReparationBallItem.java"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "ReparationBallCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reparation_ball_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/reparation_ball_craft.json"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "Reparator",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reparator",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/advancements/reparator.json"
+        ]
+      },
+      "path": "~/Nickel"
+    },
+    {
+      "name": "RawBronze",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_bronze",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/item/RawBronzeItem.java",
+          "src/main/resources/assets/ore_pack/models/item/raw_bronze.json"
+        ]
+      },
+      "path": "~/Bronze"
+    },
+    {
+      "name": "BronzeOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/worldgen/placed_feature/bronze_ore.json",
+          "src/main/resources/assets/ore_pack/models/item/bronze_ore.json",
+          "src/main/resources/data/ore_pack/loot_tables/blocks/bronze_ore.json",
+          "src/main/resources/data/ore_pack/worldgen/configured_feature/bronze_ore.json",
+          "src/main/resources/assets/ore_pack/blockstates/bronze_ore.json",
+          "src/main/java/com/cccstudio/orepack/block/BronzeOreBlock.java",
+          "src/main/resources/data/ore_pack/forge/biome_modifier/bronze_ore_biome_modifier.json",
+          "src/main/resources/assets/ore_pack/models/block/bronze_ore.json"
+        ]
+      },
+      "path": "~/Bronze"
+    },
+    {
+      "name": "BronzeSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/bronze_smelting.json"
+        ]
+      },
+      "path": "~/Bronze"
+    },
+    {
+      "name": "BronzeBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/loot_tables/blocks/bronze_block.json",
+          "src/main/resources/assets/ore_pack/blockstates/bronze_block.json",
+          "src/main/java/com/cccstudio/orepack/block/BronzeBlockBlock.java",
+          "src/main/resources/assets/ore_pack/models/block/bronze_block.json",
+          "src/main/resources/assets/ore_pack/models/item/bronze_block.json"
+        ]
+      },
+      "path": "~/Bronze"
+    },
+    {
+      "name": "BronzeIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/item/BronzeIngotItem.java",
+          "src/main/resources/assets/ore_pack/models/item/bronze_ingot.json"
+        ]
+      },
+      "path": "~/Bronze"
+    },
+    {
+      "name": "BronzeBlasting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/bronze_blasting.json"
+        ]
+      },
+      "path": "~/Bronze"
+    },
+    {
+      "name": "BronzeStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/loot_tables/blocks/bronze_stairs.json",
+          "src/main/resources/assets/ore_pack/models/item/bronze_stairs.json",
+          "src/main/resources/assets/ore_pack/models/block/bronze_stairs_outer.json",
+          "src/main/resources/assets/ore_pack/blockstates/bronze_stairs.json",
+          "src/main/java/com/cccstudio/orepack/block/BronzeStairsBlock.java",
+          "src/main/resources/assets/ore_pack/models/block/bronze_stairs_inner.json",
+          "src/main/resources/assets/ore_pack/models/block/bronze_stairs.json"
+        ]
+      },
+      "path": "~/Bronze"
+    },
+    {
+      "name": "BronzeStairsCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/bronze_stairs_craft.json"
+        ]
+      },
+      "path": "~/Bronze"
+    },
+    {
+      "name": "BronzeSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/models/block/bronze_slab_top.json",
+          "src/main/resources/assets/ore_pack/blockstates/bronze_slab.json",
+          "src/main/java/com/cccstudio/orepack/block/BronzeSlabBlock.java",
+          "src/main/resources/assets/ore_pack/models/block/bronze_slab_full.json",
+          "src/main/resources/assets/ore_pack/models/item/bronze_slab.json",
+          "src/main/resources/assets/ore_pack/models/block/bronze_slab.json",
+          "src/main/resources/data/ore_pack/loot_tables/blocks/bronze_slab.json"
+        ]
+      },
+      "path": "~/Bronze"
+    },
+    {
+      "name": "BronzeSlabCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/bronze_slab_craft.json"
+        ]
+      },
+      "path": "~/Bronze"
+    },
+    {
+      "name": "BronzeSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/models/item/bronze_sword.json",
+          "src/main/java/com/cccstudio/orepack/item/BronzeSwordItem.java"
+        ]
+      },
+      "path": "~/Bronze"
+    },
+    {
+      "name": "BronzeSwordCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_sword_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/bronze_sword_craft.json"
+        ]
+      },
+      "path": "~/Bronze"
+    },
+    {
+      "name": "BronzePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/item/BronzePickaxeItem.java",
+          "src/main/resources/assets/ore_pack/models/item/bronze_pickaxe.json"
+        ]
+      },
+      "path": "~/Bronze"
+    },
+    {
+      "name": "BronzePickaxeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_pickaxe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/bronze_pickaxe_craft.json"
+        ]
+      },
+      "path": "~/Bronze"
+    },
+    {
+      "name": "BronzeShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/item/BronzeShovelItem.java",
+          "src/main/resources/assets/ore_pack/models/item/bronze_shovel.json"
+        ]
+      },
+      "path": "~/Bronze"
+    },
+    {
+      "name": "BronzeShovelCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_shovel_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/bronze_shovel_craft.json"
+        ]
+      },
+      "path": "~/Bronze"
+    },
+    {
+      "name": "OrangeFighter",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_fighter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/advancements/orange_fighter.json"
+        ]
+      },
+      "path": "~/Bronze"
+    },
+    {
+      "name": "OrangeFighterClaim",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_fighter_claim",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/procedures/OrangeFighterClaimProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bronze"
+    },
+    {
+      "name": "RawSilver",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_silver",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/models/item/raw_silver.json",
+          "src/main/java/com/cccstudio/orepack/item/RawSilverItem.java"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/worldgen/placed_feature/silver_ore.json",
+          "src/main/resources/assets/ore_pack/models/block/silver_ore.json",
+          "src/main/resources/assets/ore_pack/blockstates/silver_ore.json",
+          "src/main/java/com/cccstudio/orepack/block/SilverOreBlock.java",
+          "src/main/resources/data/ore_pack/loot_tables/blocks/silver_ore.json",
+          "src/main/resources/data/ore_pack/forge/biome_modifier/silver_ore_biome_modifier.json",
+          "src/main/resources/assets/ore_pack/models/item/silver_ore.json",
+          "src/main/resources/data/ore_pack/worldgen/configured_feature/silver_ore.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/item/SilverNuggetItem.java",
+          "src/main/resources/assets/ore_pack/models/item/silver_nugget.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/silver_smelting.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverBlasting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/silver_blasting.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverBlockCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/silver_block_craft.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/block/SilverStairsBlock.java",
+          "src/main/resources/assets/ore_pack/models/block/silver_stairs_inner.json",
+          "src/main/resources/assets/ore_pack/models/block/silver_stairs.json",
+          "src/main/resources/assets/ore_pack/models/item/silver_stairs.json",
+          "src/main/resources/data/ore_pack/loot_tables/blocks/silver_stairs.json",
+          "src/main/resources/assets/ore_pack/models/block/silver_stairs_outer.json",
+          "src/main/resources/assets/ore_pack/blockstates/silver_stairs.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverStairsCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/silver_stairs_craft.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/blockstates/silver_slab.json",
+          "src/main/resources/assets/ore_pack/models/block/silver_slab.json",
+          "src/main/resources/assets/ore_pack/models/block/silver_slab_full.json",
+          "src/main/resources/data/ore_pack/loot_tables/blocks/silver_slab.json",
+          "src/main/resources/assets/ore_pack/models/item/silver_slab.json",
+          "src/main/java/com/cccstudio/orepack/block/SilverSlabBlock.java",
+          "src/main/resources/assets/ore_pack/models/block/silver_slab_top.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverSlabCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/silver_slab_craft.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverClockCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_clock_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/silver_clock_craft.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "Jeweller",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jeweller",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/advancements/jeweller.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/models/item/silver_block.json",
+          "src/main/java/com/cccstudio/orepack/block/SilverBlockBlock.java",
+          "src/main/resources/assets/ore_pack/models/block/silver_block.json",
+          "src/main/resources/data/ore_pack/loot_tables/blocks/silver_block.json",
+          "src/main/resources/assets/ore_pack/blockstates/silver_block.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "RawTitanium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_titanium",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/item/RawTitaniumItem.java",
+          "src/main/resources/assets/ore_pack/models/item/raw_titanium.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/models/item/titanium_nugget.json",
+          "src/main/java/com/cccstudio/orepack/item/TitaniumNuggetItem.java"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/worldgen/configured_feature/titanium_ore.json",
+          "src/main/resources/assets/ore_pack/models/block/titanium_ore.json",
+          "src/main/resources/data/ore_pack/loot_tables/blocks/titanium_ore.json",
+          "src/main/resources/assets/ore_pack/blockstates/titanium_ore.json",
+          "src/main/resources/data/ore_pack/forge/biome_modifier/titanium_ore_biome_modifier.json",
+          "src/main/java/com/cccstudio/orepack/block/TitaniumOreBlock.java",
+          "src/main/resources/assets/ore_pack/models/item/titanium_ore.json",
+          "src/main/resources/data/ore_pack/worldgen/placed_feature/titanium_ore.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/titanium_smelting.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumBlasting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/titanium_blasting.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/titanium_helmet.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumChestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/titanium_chestplate.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/titanium_leggings.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumBoots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/titanium_boots.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/models/block/titanium_block.json",
+          "src/main/resources/assets/ore_pack/blockstates/titanium_block.json",
+          "src/main/java/com/cccstudio/orepack/block/TitaniumBlockBlock.java",
+          "src/main/resources/assets/ore_pack/models/item/titanium_block.json",
+          "src/main/resources/data/ore_pack/loot_tables/blocks/titanium_block.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumBlockCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/titanium_block_craft.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "Titanium",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/models/item/titanium_helmet.json",
+          "src/main/resources/assets/ore_pack/models/item/titanium_boots.json",
+          "src/main/java/com/cccstudio/orepack/item/TitaniumItem.java",
+          "src/main/resources/assets/ore_pack/models/item/titanium_chestplate.json",
+          "src/main/resources/assets/ore_pack/models/item/titanium_leggings.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/models/block/titanium_stairs_outer.json",
+          "src/main/java/com/cccstudio/orepack/block/TitaniumStairsBlock.java",
+          "src/main/resources/assets/ore_pack/models/item/titanium_stairs.json",
+          "src/main/resources/assets/ore_pack/models/block/titanium_stairs.json",
+          "src/main/resources/data/ore_pack/loot_tables/blocks/titanium_stairs.json",
+          "src/main/resources/assets/ore_pack/models/block/titanium_stairs_inner.json",
+          "src/main/resources/assets/ore_pack/blockstates/titanium_stairs.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumStairsCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/titanium_stairs_craft.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/loot_tables/blocks/titanium_slab.json",
+          "src/main/resources/assets/ore_pack/models/block/titanium_slab_top.json",
+          "src/main/resources/assets/ore_pack/models/block/titanium_slab.json",
+          "src/main/resources/assets/ore_pack/blockstates/titanium_slab.json",
+          "src/main/java/com/cccstudio/orepack/block/TitaniumSlabBlock.java",
+          "src/main/resources/assets/ore_pack/models/item/titanium_slab.json",
+          "src/main/resources/assets/ore_pack/models/block/titanium_slab_full.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumSlabCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/titanium_slab_craft.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/item/TitaniumSwordItem.java",
+          "src/main/resources/assets/ore_pack/models/item/titanium_sword.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumSwordCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_sword_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/titanium_sword_craft.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/item/TitaniumPickaxeItem.java",
+          "src/main/resources/assets/ore_pack/models/item/titanium_pickaxe.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumPickaxeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_pickaxe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/titanium_pickaxe_craft.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/item/TitaniumAxeItem.java",
+          "src/main/resources/assets/ore_pack/models/item/titanium_axe.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumAxeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_axe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/titanium_axe_craft.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/item/TitaniumShovelItem.java",
+          "src/main/resources/assets/ore_pack/models/item/titanium_shovel.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitaniumShovelCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_shovel_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/titanium_shovel_craft.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitanBody",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_body",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/advancements/titan_body.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "TitanBodyClaimer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_body_claimer",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/procedures/TitanBodyClaimerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "SeasonedMiner",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seasoned_miner",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/advancements/seasoned_miner.json"
+        ]
+      },
+      "path": "~/Titanium"
+    },
+    {
+      "name": "CopperSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/item/CopperSwordItem.java",
+          "src/main/resources/assets/ore_pack/models/item/copper_sword.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperSwordCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/copper_sword_craft.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/models/item/copper_pickaxe.json",
+          "src/main/java/com/cccstudio/orepack/item/CopperPickaxeItem.java"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperPickaxeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/copper_pickaxe_craft.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/item/CopperAxeItem.java",
+          "src/main/resources/assets/ore_pack/models/item/copper_axe.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperAxeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/copper_axe_craft.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/models/item/copper_shovel.json",
+          "src/main/java/com/cccstudio/orepack/item/CopperShovelItem.java"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "CopperShovelCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/copper_shovel_craft.json"
+        ]
+      },
+      "path": "~/Copper"
+    },
+    {
+      "name": "LapisLazuliSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_lazuli_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/item/LapisLazuliSwordItem.java",
+          "src/main/resources/assets/ore_pack/models/item/lapis_lazuli_sword.json"
+        ]
+      },
+      "path": "~/Lapis-lazuli"
+    },
+    {
+      "name": "LapisLazuliSwordCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_lazuli_sword_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/lapis_lazuli_sword_craft.json"
+        ]
+      },
+      "path": "~/Lapis-lazuli"
+    },
+    {
+      "name": "LapisLazuliPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_lazuli_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/models/item/lapis_lazuli_pickaxe.json",
+          "src/main/java/com/cccstudio/orepack/item/LapisLazuliPickaxeItem.java"
+        ]
+      },
+      "path": "~/Lapis-lazuli"
+    },
+    {
+      "name": "LapisLazuliPickaxeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_lazuli_pickaxe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/lapis_lazuli_pickaxe_craft.json"
+        ]
+      },
+      "path": "~/Lapis-lazuli"
+    },
+    {
+      "name": "LapisLazuliAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_lazuli_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/models/item/lapis_lazuli_axe.json",
+          "src/main/java/com/cccstudio/orepack/item/LapisLazuliAxeItem.java"
+        ]
+      },
+      "path": "~/Lapis-lazuli"
+    },
+    {
+      "name": "LapisLazuliAxeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_lazuli_axe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/lapis_lazuli_axe_craft.json"
+        ]
+      },
+      "path": "~/Lapis-lazuli"
+    },
+    {
+      "name": "LapisLazuliHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_lazuli_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ore_pack/models/item/lapis_lazuli_hoe.json",
+          "src/main/java/com/cccstudio/orepack/item/LapisLazuliHoeItem.java"
+        ]
+      },
+      "path": "~/Lapis-lazuli"
+    },
+    {
+      "name": "LapisLazuliHoeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_lazuli_hoe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/lapis_lazuli_hoe_craft.json"
+        ]
+      },
+      "path": "~/Lapis-lazuli"
+    },
+    {
+      "name": "LapisLazuliShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_lazuli_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/item/LapisLazuliShovelItem.java",
+          "src/main/resources/assets/ore_pack/models/item/lapis_lazuli_shovel.json"
+        ]
+      },
+      "path": "~/Lapis-lazuli"
+    },
+    {
+      "name": "LapisLazuliShovelCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_lazuli_shovel_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ore_pack/recipes/lapis_lazuli_shovel_craft.json"
+        ]
+      },
+      "path": "~/Lapis-lazuli"
+    },
+    {
+      "name": "VillagersTrades",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villagers_trades",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SeasonedMinerClaimer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seasoned_miner_claimer",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cccstudio/orepack/procedures/SeasonedMinerClaimerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Titanium"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "FoundedTitanium",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:TitaniumOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:TitaniumOre",
+      "~CUSTOM:BronzeOre",
+      "~CUSTOM:NickelOre",
+      "~CUSTOM:ManganeseBlock",
+      "~CUSTOM:ManganeseOre"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:TitaniumSlab",
+      "~CUSTOM:SilverSlab",
+      "~CUSTOM:BronzeSlab",
+      "~CUSTOM:NickelSlab",
+      "~CUSTOM:ManganeseSlab"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:BronzeOre",
+      "~CUSTOM:NickelOre",
+      "~CUSTOM:ManganeseBlock",
+      "~CUSTOM:ManganeseOre"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:LapisLazuliPickaxe",
+      "~CUSTOM:CopperPickaxe",
+      "~CUSTOM:TitaniumPickaxe",
+      "~CUSTOM:BronzePickaxe",
+      "~CUSTOM:NickelPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:LapisLazuliAxe",
+      "~CUSTOM:CopperAxe",
+      "~CUSTOM:TitaniumAxe",
+      "~CUSTOM:NickelAxe"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:TitaniumStairs",
+      "~CUSTOM:SilverStairs",
+      "~CUSTOM:BronzeStairs",
+      "~CUSTOM:NickelStairs",
+      "~CUSTOM:ManganeseStairs"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:LapisLazuliSword",
+      "~CUSTOM:CopperSword",
+      "~CUSTOM:TitaniumSword",
+      "~CUSTOM:BronzeSword",
+      "~CUSTOM:NickelSword"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:LapisLazuliHoe",
+      "~CUSTOM:NickelHoe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:LapisLazuliShovel",
+      "~CUSTOM:CopperShovel",
+      "~CUSTOM:TitaniumShovel",
+      "~CUSTOM:BronzeShovel",
+      "~CUSTOM:NickelShovel"
+    ]
+  },
+  "tab_element_order": {
+    "MATERIALS": [
+      "RawManganese",
+      "ManganeseIngot",
+      "RawNickel",
+      "Nickel",
+      "ReparationBall",
+      "RawBronze",
+      "BronzeIngot",
+      "RawSilver",
+      "SilverNugget",
+      "RawTitanium",
+      "TitaniumNugget"
+    ],
+    "BUILDING_BLOCKS": [
+      "ManganeseOre",
+      "ManganeseBlock",
+      "ManganeseStairs",
+      "ManganeseSlab",
+      "NickelOre",
+      "NickelBlock",
+      "NickelStairs",
+      "NickelSlab",
+      "BronzeOre",
+      "BronzeBlock",
+      "BronzeStairs",
+      "BronzeSlab",
+      "SilverOre",
+      "SilverStairs",
+      "SilverSlab",
+      "SilverBlock",
+      "TitaniumOre",
+      "TitaniumBlock",
+      "TitaniumStairs",
+      "TitaniumSlab"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "advancements.reparationball.descr": "Craft a reparation ball",
+      "item.ore_pack.nickel_hoe": "Houx de nickel",
+      "block.ore_pack.silver_ore": "Argent",
+      "block.ore_pack.bronze_ore": "Bronze",
+      "item.ore_pack.bronze_sword": "Epée de bronze",
+      "advancements.seasoned_miner.descr": "Trouver 20 titanium",
+      "advancements.jeweller.descr": "Faire une montre",
+      "block.ore_pack.nickel_block": "Bloc de nickel",
+      "advancements.factory_master.title": "Maitre de fabrique",
+      "item.ore_pack.manganese_ingot": "Pépite de manganèse",
+      "item.ore_pack.lapis_lazuli_shovel": "Pelle de lapis-lazuli",
+      "advancements.reparationball.title": "Réparator",
+      "advancements.titan_body.descr": "S\u0027équiper d\u0027une armure en titanium",
+      "advancements.seasoned_miner.title": "Mineur agueri",
+      "item.ore_pack.lapis_lazuli_pickaxe": "Pioche de lapis-lazuli",
+      "item.ore_pack.raw_titanium": "Titanium brut",
+      "item.ore_pack.copper_axe": "Hache de cuivre",
+      "item.ore_pack.silver_nugget": "Pépite d\u0027argent",
+      "item.ore_pack.titanium_helmet": "Titanium helmet",
+      "advancements.orange_fighter.descr": "Attaquer avec une épée en bronze",
+      "advancements.titan_body.title": "Corps de titan",
+      "item.ore_pack.nickel_pickaxe": "Pioche de nickel",
+      "advancements.jeweller.title": "Bijoutier",
+      "item.ore_pack.bronze_shovel": "Pelle de bronze",
+      "item.ore_pack.copper_pickaxe": "Pioche de cuivre",
+      "block.ore_pack.manganese_stairs": "Escalier de manganèse",
+      "item.ore_pack.nickel": "Pepite de nickel",
+      "block.ore_pack.titanium_ore": "Titanium",
+      "item.ore_pack.lapis_lazuli_hoe": "Houx de lapis-lazuli",
+      "item.ore_pack.titanium_sword": "Epée de titanium",
+      "item.ore_pack.titanium_chestplate": "Titanium chestplate",
+      "item.ore_pack.reparation_ball": "Reparation Ball",
+      "block.ore_pack.silver_stairs": "Escalier d\u0027argent",
+      "item.ore_pack.titanium_axe": "Hache de titanium",
+      "item.ore_pack.nickel_sword": "Epée de nickel",
+      "advancements.reparator.descr": "fabriquer une boule de réparation",
+      "advancements.manganeseblock.title": "Fabric master",
+      "block.ore_pack.manganese_block": "Bloc de manganèse",
+      "block.ore_pack.nickel_stairs": "Escalier de nickel",
+      "block.ore_pack.titanium_block": "Bloc de titanium",
+      "block.ore_pack.titanium_slab": "Dalle de titanium",
+      "advancements.manganeseblock.descr": "Craft a manganese block",
+      "item.ore_pack.nickel_shovel": "Pelle de nickel",
+      "block.ore_pack.bronze_stairs": "Escalier de bronze",
+      "item.ore_pack.titanium_leggings": "Titanium legging",
+      "item.ore_pack.raw_manganese": "Manganèse brut",
+      "item.ore_pack.raw_silver": "Argent brut",
+      "item.ore_pack.nickel_axe": "Hache de nickel",
+      "item.ore_pack.bronze_ingot": "Pépite de bronze",
+      "block.ore_pack.titanium_stairs": "Escalier de titanium",
+      "item.ore_pack.titanium_nugget": "Pepite de titanium",
+      "item.ore_pack.bronze_nugget": "Bronze nugget",
+      "block.ore_pack.nickel_slab": "Dalle de nickel",
+      "item.ore_pack.lapis_lazuli_sword": "Epée de lapis-lazuli",
+      "item.ore_pack.raw_bronze": "Bronze brut",
+      "item.ore_pack.copper_shovel": "Pelle de cuivre",
+      "advancements.sliverclock.title": "Bijoutier",
+      "item.ore_pack.titanium_boots": "Titanium boots",
+      "block.ore_pack.bronze_slab": "Dalle de bronze",
+      "block.ore_pack.manganese_ore": "Manganèse brut",
+      "item.ore_pack.lapis_lazuli_axe": "Hache de lapis-lazuli",
+      "advancements.factory_master.descr": "Construire un bloc de manganèse",
+      "advancements.orange_fighter.title": "Combattant orange",
+      "block.ore_pack.manganese_slab": "Dalle de manganèse",
+      "item.ore_pack.titanium_pickaxe": "Pioche de titanium",
+      "item.ore_pack.bronze_pickaxe": "Pioche de bronze",
+      "block.ore_pack.silver_block": "Bloc d\u0027argent",
+      "block.ore_pack.nickel_ore": "Nickel",
+      "advancements.reparator.title": "Réparateur",
+      "item.ore_pack.raw_nickel": "Nickel brut",
+      "block.ore_pack.bronze_block": "Bloc de bronze",
+      "block.ore_pack.silver_slab": "Dalle d\u0027argent",
+      "item.ore_pack.titanium_shovel": "Pelle de titanium",
+      "item.ore_pack.copper_sword": "Epée de cuivre"
+    },
+    "fr_fr": {
+      "item.ore_pack.nickel_hoe": "Houx de nickel",
+      "block.ore_pack.silver_ore": "Argent",
+      "block.ore_pack.bronze_ore": "Bronze",
+      "item.ore_pack.bronze_sword": "Epée de bronze",
+      "advancements.seasoned_miner.descr": "Trouver 20 titanium",
+      "advancements.jeweller.descr": "Faire une montre",
+      "block.ore_pack.nickel_block": "Bloc de nickel",
+      "advancements.factory_master.title": "Maitre de fabrique",
+      "item.ore_pack.manganese_ingot": "Pépite de manganèse",
+      "item.ore_pack.lapis_lazuli_shovel": "Pelle de lapis-lazuli",
+      "advancements.titan_body.descr": "S\u0027équiper d\u0027une armure en titanium",
+      "item.ore_pack.lapis_lazuli_pickaxe": "Pioche de lapis-lazuli",
+      "advancements.seasoned_miner.title": "Mineur agueri",
+      "item.ore_pack.raw_titanium": "Titanium brut",
+      "item.ore_pack.copper_axe": "Hache de cuivre",
+      "item.ore_pack.silver_nugget": "Pépite d\u0027argent",
+      "item.ore_pack.titanium_helmet": "Titanium helmet",
+      "advancements.orange_fighter.descr": "Attaquer avec une épée en bronze",
+      "advancements.titan_body.title": "Corps de titan",
+      "item.ore_pack.nickel_pickaxe": "Pioche de nickel",
+      "advancements.jeweller.title": "Bijoutier",
+      "item.ore_pack.bronze_shovel": "Pelle de bronze",
+      "item.ore_pack.copper_pickaxe": "Pioche de cuivre",
+      "block.ore_pack.manganese_stairs": "Escalier de manganèse",
+      "item.ore_pack.nickel": "Pepite de nickel",
+      "block.ore_pack.titanium_ore": "Titanium",
+      "item.ore_pack.lapis_lazuli_hoe": "Houx de lapis-lazuli",
+      "item.ore_pack.titanium_sword": "Epée de titanium",
+      "item.ore_pack.titanium_chestplate": "Titanium chestplate",
+      "item.ore_pack.reparation_ball": "Reparation Ball",
+      "block.ore_pack.silver_stairs": "Escalier d\u0027argent",
+      "item.ore_pack.titanium_axe": "Hache de titanium",
+      "item.ore_pack.nickel_sword": "Epée de nickel",
+      "advancements.reparator.descr": "fabriquer une boule de réparation",
+      "block.ore_pack.manganese_block": "Bloc de manganèse",
+      "block.ore_pack.nickel_stairs": "Escalier de nickel",
+      "block.ore_pack.titanium_block": "Bloc de titanium",
+      "block.ore_pack.titanium_slab": "Dalle de titanium",
+      "item.ore_pack.nickel_shovel": "Pelle de nickel",
+      "block.ore_pack.bronze_stairs": "Escalier de bronze",
+      "item.ore_pack.titanium_leggings": "Titanium legging",
+      "item.ore_pack.raw_manganese": "Manganèse brut",
+      "item.ore_pack.nickel_axe": "Hache de nickel",
+      "item.ore_pack.raw_silver": "Argent brut",
+      "item.ore_pack.bronze_ingot": "Pépite de bronze",
+      "block.ore_pack.titanium_stairs": "Escalier de titanium",
+      "item.ore_pack.titanium_nugget": "Pepite de titanium",
+      "block.ore_pack.nickel_slab": "Dalle de nickel",
+      "item.ore_pack.lapis_lazuli_sword": "Epée de lapis-lazuli",
+      "item.ore_pack.raw_bronze": "Bronze brut",
+      "item.ore_pack.copper_shovel": "Pelle de cuivre",
+      "item.ore_pack.titanium_boots": "Titanium boots",
+      "block.ore_pack.bronze_slab": "Dalle de bronze",
+      "block.ore_pack.manganese_ore": "Manganèse brut",
+      "item.ore_pack.lapis_lazuli_axe": "Hache de lapis-lazuli",
+      "advancements.factory_master.descr": "Construire un bloc de manganèse",
+      "advancements.orange_fighter.title": "Combattant orange",
+      "block.ore_pack.manganese_slab": "Dalle de manganèse",
+      "item.ore_pack.titanium_pickaxe": "Pioche de titanium",
+      "item.ore_pack.bronze_pickaxe": "Pioche de bronze",
+      "block.ore_pack.silver_block": "Bloc d\u0027argent",
+      "block.ore_pack.nickel_ore": "Nickel",
+      "advancements.reparator.title": "Réparateur",
+      "item.ore_pack.raw_nickel": "Nickel brut",
+      "block.ore_pack.bronze_block": "Bloc de bronze",
+      "block.ore_pack.silver_slab": "Dalle d\u0027argent",
+      "item.ore_pack.titanium_shovel": "Pelle de titanium",
+      "item.ore_pack.copper_sword": "Epée de cuivre"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Manganese",
+        "children": []
+      },
+      {
+        "name": "Nickel",
+        "children": []
+      },
+      {
+        "name": "Bronze",
+        "children": []
+      },
+      {
+        "name": "Silver",
+        "children": []
+      },
+      {
+        "name": "Titanium",
+        "children": []
+      },
+      {
+        "name": "Copper",
+        "children": []
+      },
+      {
+        "name": "Lapis-lazuli",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "ore_pack",
+    "modName": "Ore pack",
+    "version": "2.0 beta 3",
+    "description": "Five new ores for you !",
+    "author": "CCC Studio",
+    "websiteURL": "https://cccstudiocoder.github.io",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "capture_decran_2025-03-12_181852",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - thanks to Pylo",
+    "modElementsPackage": "com.cccstudio.orepack"
+  },
+  "mcreatorVersion": 202400452410
+}

@@ -3,7 +3,7 @@ package com.cccstudio.orepack.block;
 
 import org.checkerframework.checker.units.qual.s;
 
-import net.minecraft.world.level.pathfinder.BlockPathTypes;
+import net.minecraft.world.level.pathfinder.PathType;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -19,12 +19,12 @@ import net.minecraft.core.BlockPos;
 import com.cccstudio.orepack.procedures.SeasonedMinerClaimerProcedure;
 
 public class TitaniumOreBlock extends Block {
-	public TitaniumOreBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(3f, 15f).lightLevel(s -> 2).requiresCorrectToolForDrops().friction(0.4f).jumpFactor(0.8f));
+	public TitaniumOreBlock(BlockBehaviour.Properties properties) {
+		super(properties.sound(SoundType.GRAVEL).strength(3f, 15f).lightLevel(s -> 2).requiresCorrectToolForDrops().friction(0.4f).jumpFactor(0.8f));
 	}
 
 	@Override
-	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
+	public int getLightBlock(BlockState state) {
 		return 15;
 	}
 
@@ -39,8 +39,8 @@ public class TitaniumOreBlock extends Block {
 	}
 
 	@Override
-	public BlockPathTypes getBlockPathType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
-		return BlockPathTypes.BLOCKED;
+	public PathType getBlockPathType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
+		return PathType.BLOCKED;
 	}
 
 	@Override

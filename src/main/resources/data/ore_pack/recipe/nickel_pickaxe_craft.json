@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": "ore_pack:nickel",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "ore_pack:nickel_pickaxe",
+    "count": 1
+  }
+}

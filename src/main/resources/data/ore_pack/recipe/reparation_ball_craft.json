@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "ore_pack:nickel",
+    "ore_pack:manganese_ingot",
+    "ore_pack:manganese_ingot"
+  ],
+  "result": {
+    "id": "ore_pack:reparation_ball",
+    "count": 1
+  }
+}

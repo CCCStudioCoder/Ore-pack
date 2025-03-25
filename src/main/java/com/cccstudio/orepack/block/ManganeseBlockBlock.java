@@ -1,8 +1,7 @@
 
 package com.cccstudio.orepack.block;
 
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.common.util.ForgeSoundType;
+import net.neoforged.neoforge.common.util.DeferredSoundType;
 
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
@@ -10,20 +9,21 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 public class ManganeseBlockBlock extends Block {
-	public ManganeseBlockBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.ancient_debris.break")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.ancient_debris.step")),
-						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.metal.place")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.ancient_debris.hit")),
-						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.ancient_debris.fall"))))
+	public ManganeseBlockBlock(BlockBehaviour.Properties properties) {
+		super(properties.instrument(NoteBlockInstrument.BASEDRUM)
+				.sound(new DeferredSoundType(1.0f, 1.0f, () -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.ancient_debris.break")),
+						() -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.ancient_debris.step")), () -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.metal.place")),
+						() -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.ancient_debris.hit")), () -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.ancient_debris.fall"))))
 				.strength(2f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
-	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
+	public int getLightBlock(BlockState state) {
 		return 15;
 	}
 

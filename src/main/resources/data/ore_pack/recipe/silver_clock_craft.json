@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "ore_pack:silver_nugget",
+    "b": "minecraft:redstone"
+  },
+  "result": {
+    "id": "minecraft:clock",
+    "count": 1
+  }
+}

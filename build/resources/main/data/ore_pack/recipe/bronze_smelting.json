@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 2,
+  "cookingtime": 220,
+  "ingredient": "ore_pack:raw_bronze",
+  "result": {
+    "id": "ore_pack:bronze_ingot"
+  }
+}
